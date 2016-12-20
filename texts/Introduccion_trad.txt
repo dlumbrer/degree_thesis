@@ -1,0 +1,40 @@
+/////////////////DESCRIPCIÓN DEL PROBLEMA////////////////////////
+Nowadays, the enterprises/businesses/companies have a big amount of data (sells, products, incomes, costumers/clients) that’s why the visualization of these displays a very important role in the business process. This data must be understandable to its subsequent analysis or usage. Our brain interprets better and quicker the information when it’s received through a graphic process. Through visual communication, a bunch of complex data makes easier to understand. These are usually shown as graphics – either circular, lineal, in barcodes, etc. This project is based in the visualization of this data storage in a different way – a social net – with nodes. This way of visualization isn’t much operated. Eventually, there are only a few applications to fulfill this kind of visualizations (Graph, amongs them). That’s why this project would work in something innovative inside free software engineering.
+
+Kibana is a tool, almost new, with the Open-source license that allows to visualize and explore data that comes from ElasticSearch, being itself another tool that allows to index a big amount of data. ElasticSearch can make searches and analyse such data in real time. Data can be visualize through Kibana in different ways (circular, lineal, in barcodes, map representation, etc.) and after, it can be include those visualizations in the same dashboard with the aim of watching the data in different ways of visualization. I's because of that, that it's been chosen as a project the creation of a visualization (or plugin) for Kibana, that allows visualize data in social network way and afterwards, add it to a dashboard with other visualizations.
+
+////////////////OBJETIVO PRINCIPAL Y REQUISITOS//////////////////////////////
+This project's main aim is the data representation in a node network way. ---CHANGED
+
+This project's main aim is the integration of visualization systems of social networks in complex systems of data visualization and interaction --NEW
+
+It's been chosen for this project the creation of a visualization plugin for Open-Source Kibana. This plugin should show the data of the ElasticSearch database in a node network way relating the fields that have been previously selected. Finally, the next goal is to integrate it in a dashboard (of Kibana) with other data visualizations.
+
+Inside this main aim, there are a number of sub-goals:
+
+    Visualization's Libraries Adaptating: learning the usage and functioning of the chosen libraries to this project development. This can be reached through the creation and modification of little examples of each library according to its API's.    
+    
+    Kibana and ElasticSearch Adaptating: to adapt the program (plugin) and learn the functioning of the Kibana's development enviroment and the ElasticSearch database. First, it must be studied the functioning of Kibana, creating little examples of visualizations and prepare a development enviroment. It must be considered that Kibana is a plugin to the ElasticSearch database, therefore, it must be learned what is it and how to use it.
+    
+    Modification of Kibana's options so it can adapt itself to the user's requirements and the usage of the application (plugin) is simple, intuitive, dinamic and efficient.
+    
+    Customization of the network, so the user can modify a range of parameters and adjust them to its own usage. For example, changing the nodes color, shape and size, the the link, etc.
+    
+    Opitimization of the resources when the data quantity changes. The plugin usage is aimed at vsializating a changeable network to show different he of networks without depending on the amount of data.
+    
+    Different kinds of networks so the definition changes according to the chosen fields. For instance, to link two kind of nodes, one per field, or link just one kind of nodes according to the relation between the chosen fields in the database.
+    
+    Dashboard integration: this section is very important, since combinating different kinds of visualizations in an only dashboard is a very powerful part of Kibana. The aim is to built the plugin so it can be adapted to the dashboard, being responsive according to the size and range of the chosen data.
+
+
+////////////////DISPONIBILIDAD DEL SOFTWARE////////////////////////
+
+The plugin is hosted in the control system of GitHum versions under license of Open-Source. It has a web page of presentation where more information and details of the project are provided to the user. Inside the repository, where project's software is hosted, there's documentation like the instalation steps and the user and usage manual.
+
+Furthermore, the Elastic team has added this plugin to the known plugins page of Kibana. This way, the plugin has grown stronger and it's been tested by extern people as it will be developed.
+
+Project page: https://dlumbrer.github.io/kbn_network/
+
+GitHub Repository: https://github.com/dlumbrer/kbn_network
+
+Known-Plugins page: https://github.com/elastic/kibana/wiki/Known-Plugins

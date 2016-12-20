@@ -1,0 +1,86 @@
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Problem description}{1}{section.1.1}
+\contentsline {section}{\numberline {1.2}Main Objective and Requirements}{2}{section.1.2}
+\contentsline {section}{\numberline {1.3}Software Availability}{3}{section.1.3}
+\contentsline {chapter}{\numberline {2}Context and Used technologies}{5}{chapter.2}
+\contentsline {section}{\numberline {2.1}HTML5}{5}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}General description}{5}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}In this project}{6}{subsection.2.1.2}
+\contentsline {section}{\numberline {2.2}JavaScript}{6}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}In this project}{8}{subsection.2.2.1}
+\contentsline {section}{\numberline {2.3}Kibana}{8}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Index(es) Setting}{9}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Pages in Kibana}{9}{subsection.2.3.2}
+\contentsline {subsubsection}{Discover}{10}{section*.10}
+\contentsline {subsubsection}{Visualize}{10}{section*.11}
+\contentsline {subsubsection}{Dashboard}{10}{section*.13}
+\contentsline {section}{\numberline {2.4}ElasticSearch}{11}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Basic Concepts}{12}{subsection.2.4.1}
+\contentsline {subsubsection}{Near Realtime}{12}{section*.15}
+\contentsline {subsubsection}{Cluster}{12}{section*.16}
+\contentsline {subsubsection}{Node}{12}{section*.17}
+\contentsline {subsubsection}{Index}{12}{section*.18}
+\contentsline {subsubsection}{Type}{13}{section*.19}
+\contentsline {subsubsection}{Document}{13}{section*.20}
+\contentsline {subsubsection}{Shards and Replicas}{13}{section*.21}
+\contentsline {section}{\numberline {2.5}VisJS}{14}{section.2.5}
+\contentsline {section}{\numberline {2.6}AngularJS}{15}{section.2.6}
+\contentsline {section}{\numberline {2.7}NodeJS and Npm}{16}{section.2.7}
+\contentsline {section}{\numberline {2.8}Other Packages Used}{18}{section.2.8}
+\contentsline {subsection}{\numberline {2.8.1}ResizeSensor}{18}{subsection.2.8.1}
+\contentsline {subsection}{\numberline {2.8.2}RandomColor}{19}{subsection.2.8.2}
+\contentsline {chapter}{\numberline {3}Development}{21}{chapter.3}
+\contentsline {section}{\numberline {3.1}SCRUM methodology}{21}{section.3.1}
+\contentsline {section}{\numberline {3.2}Iteration 0: Investigation and preliminary study}{23}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Testing Kibana Client}{24}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Setting Up the Development Environment}{26}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}Choosing a Visualization Library}{29}{subsection.3.2.3}
+\contentsline {section}{\numberline {3.3}Iteration 1: First plugins}{31}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Plugin Without Data}{31}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Plugin With Data}{33}{subsection.3.3.2}
+\contentsline {section}{\numberline {3.4}Iteration 2: Integration}{34}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Integration of the library}{35}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}Plugin using VisJS}{35}{subsection.3.4.2}
+\contentsline {section}{\numberline {3.5}Iteration 3: Visualization with ElasticSearh data}{36}{section.3.5}
+\contentsline {subsection}{\numberline {3.5.1}Migration}{37}{subsection.3.5.1}
+\contentsline {subsection}{\numberline {3.5.2}Adding Schemas}{37}{subsection.3.5.2}
+\contentsline {subsection}{\numberline {3.5.3}Building code}{38}{subsection.3.5.3}
+\contentsline {subsection}{\numberline {3.5.4}Dashboard Integration}{38}{subsection.3.5.4}
+\contentsline {section}{\numberline {3.6}Iteration 4: Different ways to represent and Optimization}{39}{section.3.6}
+\contentsline {subsection}{\numberline {3.6.1}Changing Schemas and Building differents ways}{40}{subsection.3.6.1}
+\contentsline {subsection}{\numberline {3.6.2}Optimization}{41}{subsection.3.6.2}
+\contentsline {section}{\numberline {3.7}Iteration 5: Customization}{42}{section.3.7}
+\contentsline {subsection}{\numberline {3.7.1}Adding more aggregations}{42}{subsection.3.7.1}
+\contentsline {subsection}{\numberline {3.7.2}Adding options}{44}{subsection.3.7.2}
+\contentsline {chapter}{\numberline {4}Design and results}{47}{chapter.4}
+\contentsline {section}{\numberline {4.1}Introduction}{47}{section.4.1}
+\contentsline {section}{\numberline {4.2}Structure}{47}{section.4.2}
+\contentsline {section}{\numberline {4.3}User Guide}{52}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Network with only nodes and no relation}{52}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Network with one type of nodes}{53}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}Network with two type of nodes}{53}{subsection.4.3.3}
+\contentsline {subsection}{\numberline {4.3.4}Add Node Color}{54}{subsection.4.3.4}
+\contentsline {subsection}{\numberline {4.3.5}Types of Error on selecting buckets}{55}{subsection.4.3.5}
+\contentsline {subsection}{\numberline {4.3.6}Add Node/Edge Size Customization}{57}{subsection.4.3.6}
+\contentsline {subsection}{\numberline {4.3.7}Change options}{57}{subsection.4.3.7}
+\contentsline {subsection}{\numberline {4.3.8}Save and Integrate in a dashboard}{58}{subsection.4.3.8}
+\contentsline {section}{\numberline {4.4}Software hosting and Testing}{59}{section.4.4}
+\contentsline {chapter}{\numberline {5}Conclusions}{61}{chapter.5}
+\contentsline {section}{\numberline {5.1}Application of lessons learned}{62}{section.5.1}
+\contentsline {section}{\numberline {5.2}Lessons learned}{62}{section.5.2}
+\contentsline {section}{\numberline {5.3}Future work}{63}{section.5.3}
+\contentsline {chapter}{\numberline {A}Appendix}{65}{appendix.A}
+\contentsline {section}{\numberline {A.1}Code template to create a plugin}{65}{section.A.1}
+\contentsline {subsection}{\numberline {A.1.1}index.js}{65}{subsection.A.1.1}
+\contentsline {subsection}{\numberline {A.1.2}plugin-name.js}{65}{subsection.A.1.2}
+\contentsline {subsection}{\numberline {A.1.3}plugin-name\_controller.js}{67}{subsection.A.1.3}
+\contentsline {subsection}{\numberline {A.1.4}plugin-name\_params.js}{67}{subsection.A.1.4}
+\contentsline {section}{\numberline {A.2}Plugin Code}{68}{section.A.2}
+\contentsline {subsection}{\numberline {A.2.1}index.js}{68}{subsection.A.2.1}
+\contentsline {subsection}{\numberline {A.2.2}package.json}{68}{subsection.A.2.2}
+\contentsline {subsection}{\numberline {A.2.3}network\_vis.html}{69}{subsection.A.2.3}
+\contentsline {subsection}{\numberline {A.2.4}network\_vis.js}{69}{subsection.A.2.4}
+\contentsline {subsection}{\numberline {A.2.5}network\_vis.less}{72}{subsection.A.2.5}
+\contentsline {subsection}{\numberline {A.2.6}network\_vis\_controller.js}{73}{subsection.A.2.6}
+\contentsline {subsection}{\numberline {A.2.7}network\_vis\_params.html}{92}{subsection.A.2.7}
+\contentsline {chapter}{\numberline {B}Bibliography}{97}{appendix.B}

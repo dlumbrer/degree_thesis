@@ -1,0 +1,51 @@
+/////////////////DESCRIPCIÓN DEL PROBLEMA////////////////////////
+
+En la actualidad, las empresas tienen una gran cantidad de datos (ventas, ingresos, productos, clientes, etc.), por lo que la visualización de estos ocupa un lugar importante en el proceso empresarial ya que estos deben ser entendibles para su posterior análisis o uso. Nuestro cerebro interpreta mejor y más rápidamente la información cuando la recibe a través de un proceso gráfico. Por medio de la comunicación visual, conjuntos de datos complejos se hacen más fáciles de entender y comprender. Estos datos normalmente se muestran en forma de gráficos, ya sean cirulares, lineales, de barras, etc. 
+Este proyecto se basa en la visualización de estos datos de una manera distinta, en forma de red social, relacionando nodos. Esta forma de visualización es una forma muy poco explotada, actualmente existen pocas aplicaciones para realizar este tipo de visualizaciones (Graph, entre ellas), por lo que este proyecto entraría en el desarrollo de algo innovador dentro de la ingeniería del software libre.
+
+Kibana es una herramienta, prácticamente nueva, con licencia Open-Source que permite visualizar y explorar datos provenientes de ElasticSearch, que a su vez es otra herramienta que permite indexar una gran cantidad de datos que permite realizar búsquedas y analizar dichos datos en tiempo real. Kibana es una herramienta interesante ya que permite realizar visualizaciones de datos de distintas formas (gráfico de barras, lineal, circular, representación de mapa, etc.) y posteriormente puedes incluir las visualizaciones en un único dashboard con el fin de poder ver los mismos datos en diferentes formas de visualización. Es por este motivo por el que se ha elegido como proyecto la creación de una visualización (o plugin) para Kibana que permita visualizar los datos en forma de red social y posteriormente añadirlo a un dashboard junto a otras visualizaciones.
+
+
+(Visualizacion en forma de graficos Big Data
+Interesante por que hay pocas aplicaciones
+Interesante Kibana, Software libre y nuevo) 
+
+
+////////////////OBJETIVO PRINCIPAL Y REQUISITOS//////////////////////////////
+
+El objetivo principal de este proyecto es la integración de sistemas de visualización de redes sociales en sistemas complejos de visualización e iteracción de  datos. --NUEVO
+
+Para este proyecto se ha elegido la construcción de un plugin de visualización para la herramienta Open-Source Kibana que sea capaz de mostrar los datos de la base de datos ElasticSearch en forma de una red de nodos que relacione los campos previamente seleccionados. Finalmente el objetivo es integrarlo en un dashboard (del propio Kibana) junto a otras visualizaciones de datos.
+
+Dentro del objetivo principal tendríamos una serie de subobjetivos:
+
+OTRO OBJ: Elegir la biblioteca de visualcion (visjs)
+OTRO OB: Integracion de biblioteca con kibana
+
+--> Anaĺisis y elección de biblioteca de visualización: Estudio y análisis de distintas bibliotecas de visualización de redes sociales para posteriormente elegir una que sea adecuada y cumpla con los requisitos para el desarrollo del plugin. This can be reached through the creation and modification of little examples of each library according to its API's. --NUEVO
+
+--> Adaptar a Kibana y Elasticsearch: Adaptar la aplicación (plugin) y aprender el funcionamiento del entorno de desarrollo de Kibana y de la base de datos ElasticSearch. Primero debe estudiarse como funciona la herramienta Kibana, crear pequeños ejemplos de visualización y montar un entorno de desarrollo. Hay que tener en cuenta que Kibana es un plugin para la base de datos ElasticSearch, por lo que se debe aprender qué es y como funciona.
+
+--> Integracion de biblioteca de visualización con Kibana: Aprender como se integra una biblioteca JavaScript externa en Kibana, ya sea con Angular y/o NPM, para integrar y utilizar dentro del plugin la biblioteca de visualización elegida anteriormente. --NUEVO   
+
+--> Modificación de opciones de Kibana con el fin de poder adaptarse a los requerimientos del usuario de tal manera que el uso de la aplicación (plugin) sea sencillo, intuitivo, dinámico y eficiente.
+
+--> Personalización de la red para que el usuario pueda modificar una variedad de parámetros para que se ajuste a su uso personal. Por ejemplo cambiar el tamaño de los nodos y enlace, el color de los nodos, la forma, etc.
+
+--> Optimización de recursos cuando la cantidad de datos varía. La idea del uso del plugin está dirigida a mostrar una red escalabale con el fin de mostrar distintos tipos de redes sin depender de la cantidad de datos.
+
+--> Distintos tipos de redes para que la definición varíe en función de los campos escogidos. Por ejemplo la idea de poder enlazar dos tipos de nodos, un tipo por cada campo o enlazar solo un tipo de nodos en función de la relación que tengan los campos elegidos en la base de datos.
+
+--> Integración en un dashboard: Este apartado es muy importante ya que el poder combinar distintos tipos de visualizaciones en un único dashboard es una parte muy potente de Kibana, el objetivo es construir el plugin para que se pueda adaptar al dashboard de tal manera que sea responsivo según el tamaño y el rango horario de datos elegido.
+
+////////////////DISPONIBILIDAD DEL SOFTWARE////////////////////////
+El plugin está alojado en el sistema de control de versiones GitHub bajo licencia del software libre, cuenta con una página web de presentación donde se facilita al usuario más información y detalles sobre el proyecto. Dentro del repositorio donde está alojado el software del proyecto, se encuentra documentación como los pasos de instalación y el manual de usuario y uso.
+
+
+Además, el equipo de Elastic ha añadido este plugin a la página de plugins conocidos para Kibana, de este modo, el plugin ha cobrado visibilidad y ha sido probado por gente externa como se describe posteriormente.
+
+
+Web del proyecto: https://dlumbrer.github.io/kbn_network/
+
+Repositorio GitHub: https://github.com/dlumbrer/kbn_network
+Known-Plugins page: https://github.com/elastic/kibana/wiki/Known-Plugins

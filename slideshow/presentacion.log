@@ -1,0 +1,1538 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2016.11.17)  19 DEC 2016 15:36
+entering extended mode
+**./presentacion.tex
+(presentacion.tex
+LaTeX2e <2016/03/31> patch level 3
+Babel <3.9r> and hyphenation patterns for 75 language(s) loaded.
+("D:\Archivos del programa\MiKTex\tex\latex\beamer\base\beamer.cls"
+("D:\Archivos del programa\MiKTex\tex\latex\beamer\base\beamerbasercs.sty"
+Package: beamerbasercs 2015/03/08 (rcs-revision 368aa9ba9d38)
+)
+Document Class: beamer 2015/01/05 3.36 A class for typesetting presentations (r
+cs-revision 8a39122e1f63)
+("D:\Archivos del programa\MiKTex\tex\latex\beamer\base\beamerbasemodes.sty"
+Package: beamerbasemodes 2013/09/03 (rcs-revision 768f2d98ca64)
+\beamer@tempbox=\box26
+\beamer@tempcount=\count79
+\c@beamerpauses=\count80
+
+("D:\Archivos del programa\MiKTex\tex\latex\beamer\base\beamerbasedecode.sty"
+Package: beamerbasedecode 2010/05/01 (rcs-revision efa082c6111d)
+\beamer@slideinframe=\count81
+\beamer@minimum=\count82
+)
+\beamer@commentbox=\box27
+\beamer@modecount=\count83
+) ("D:\Archivos del programa\MiKTex\tex\generic\oberdiek\ifpdf.sty"
+Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
+)
+\headheight=\dimen102
+\headdp=\dimen103
+\footheight=\dimen104
+\sidebarheight=\dimen105
+\beamer@tempdim=\dimen106
+\beamer@finalheight=\dimen107
+\beamer@animht=\dimen108
+\beamer@animdp=\dimen109
+\beamer@animwd=\dimen110
+\beamer@leftmargin=\dimen111
+\beamer@rightmargin=\dimen112
+\beamer@leftsidebar=\dimen113
+\beamer@rightsidebar=\dimen114
+\beamer@boxsize=\dimen115
+\beamer@vboxoffset=\dimen116
+\beamer@descdefault=\dimen117
+\beamer@descriptionwidth=\dimen118
+\beamer@lastskip=\skip41
+\beamer@areabox=\box28
+\beamer@animcurrent=\box29
+\beamer@animshowbox=\box30
+\beamer@sectionbox=\box31
+\beamer@logobox=\box32
+\beamer@linebox=\box33
+\beamer@sectioncount=\count84
+\beamer@subsubsectionmax=\count85
+\beamer@subsectionmax=\count86
+\beamer@sectionmax=\count87
+\beamer@totalheads=\count88
+\beamer@headcounter=\count89
+\beamer@partstartpage=\count90
+\beamer@sectionstartpage=\count91
+\beamer@subsectionstartpage=\count92
+\beamer@animationtempa=\count93
+\beamer@animationtempb=\count94
+\beamer@xpos=\count95
+\beamer@ypos=\count96
+\beamer@showpartnumber=\count97
+\beamer@currentsubsection=\count98
+\beamer@coveringdepth=\count99
+\beamer@sectionadjust=\count100
+\beamer@tocsectionnumber=\count101
+
+("D:\Archivos del programa\MiKTex\tex\latex\beamer\base\beamerbaseoptions.sty"
+Package: beamerbaseoptions 2013/03/10 (rcs-revision 47431932db0d)
+
+("D:\Archivos del programa\MiKTex\tex\latex\graphics\keyval.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+))
+\beamer@paperwidth=\skip42
+\beamer@paperheight=\skip43
+
+("D:\Archivos del programa\MiKTex\tex\latex\geometry\geometry.sty"
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+("D:\Archivos del programa\MiKTex\tex\generic\oberdiek\ifvtex.sty"
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+("D:\Archivos del programa\MiKTex\tex\generic\ifxetex\ifxetex.sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count102
+\Gm@cntv=\count103
+\c@Gm@tempcnt=\count104
+\Gm@bindingoffset=\dimen119
+\Gm@wd@mp=\dimen120
+\Gm@odd@mp=\dimen121
+\Gm@even@mp=\dimen122
+\Gm@layoutwidth=\dimen123
+\Gm@layoutheight=\dimen124
+\Gm@layouthoffset=\dimen125
+\Gm@layoutvoffset=\dimen126
+\Gm@dimlist=\toks15
+
+("D:\Archivos del programa\MiKTex\tex\latex\geometry\geometry.cfg"))
+
+Class beamer Warning: ``serif'' is obsolete. Use font theme ``serif'' instead o
+n input line 348.
+
+("D:\Archivos del programa\MiKTex\tex\latex\extsizes\size9.clo"
+File: size9.clo 1999/11/11 v1.4a NON-Standard LaTeX file (size option)
+)
+("D:\Archivos del programa\MiKTex\tex\latex\pgf\basiclayer\pgfcore.sty"
+("D:\Archivos del programa\MiKTex\tex\latex\graphics\graphicx.sty"
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+("D:\Archivos del programa\MiKTex\tex\latex\graphics\graphics.sty"
+Package: graphics 2016/07/10 v1.0t Standard LaTeX Graphics (DPC,SPQR)
+
+("D:\Archivos del programa\MiKTex\tex\latex\graphics\trig.sty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+("D:\Archivos del programa\MiKTex\tex\latex\graphics-cfg\graphics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+("D:\Archivos del programa\MiKTex\tex\latex\graphics-def\pdftex.def"
+File: pdftex.def 2016/07/10 v0.06j Graphics/color for pdfTeX
+
+("D:\Archivos del programa\MiKTex\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+("D:\Archivos del programa\MiKTex\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count105
+))
+\Gin@req@height=\dimen127
+\Gin@req@width=\dimen128
+)
+("D:\Archivos del programa\MiKTex\tex\latex\pgf\systemlayer\pgfsys.sty"
+("D:\Archivos del programa\MiKTex\tex\latex\pgf\utilities\pgfrcs.sty"
+("D:\Archivos del programa\MiKTex\tex\generic\pgf\utilities\pgfutil-common.tex"
+\pgfutil@everybye=\toks16
+\pgfutil@tempdima=\dimen129
+\pgfutil@tempdimb=\dimen130
+
+("D:\Archivos del programa\MiKTex\tex\generic\pgf\utilities\pgfutil-common-list
+s.tex"))
+("D:\Archivos del programa\MiKTex\tex\generic\pgf\utilities\pgfutil-latex.def"
+\pgfutil@abb=\box34
+
+("D:\Archivos del programa\MiKTex\tex\latex\ms\everyshi.sty"
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+("D:\Archivos del programa\MiKTex\tex\generic\pgf\utilities\pgfrcs.code.tex"
+Package: pgfrcs 2015/08/07 v3.0.1a (rcs-revision 1.31)
+))
+("D:\Archivos del programa\MiKTex\tex\generic\pgf\systemlayer\pgfsys.code.tex"
+Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
+
+("D:\Archivos del programa\MiKTex\tex\generic\pgf\utilities\pgfkeys.code.tex"
+\pgfkeys@pathtoks=\toks17
+\pgfkeys@temptoks=\toks18
+
+("D:\Archivos del programa\MiKTex\tex\generic\pgf\utilities\pgfkeysfiltered.cod
+e.tex"
+\pgfkeys@tmptoks=\toks19
+))
+\pgf@x=\dimen131
+\pgf@y=\dimen132
+\pgf@xa=\dimen133
+\pgf@ya=\dimen134
+\pgf@xb=\dimen135
+\pgf@yb=\dimen136
+\pgf@xc=\dimen137
+\pgf@yc=\dimen138
+\w@pgf@writea=\write3
+\r@pgf@reada=\read1
+\c@pgf@counta=\count106
+\c@pgf@countb=\count107
+\c@pgf@countc=\count108
+\c@pgf@countd=\count109
+\t@pgf@toka=\toks20
+\t@pgf@tokb=\toks21
+\t@pgf@tokc=\toks22
+ ("D:\Archivos del programa\MiKTex\tex\generic\pgf\systemlayer\pgf.cfg"
+File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+("D:\Archivos del programa\MiKTex\tex\generic\pgf\systemlayer\pgfsys-pdftex.def
+"
+File: pgfsys-pdftex.def 2014/10/11  (rcs-revision 1.35)
+
+("D:\Archivos del programa\MiKTex\tex\generic\pgf\systemlayer\pgfsys-common-pdf
+.def"
+File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
+)))
+("D:\Archivos del programa\MiKTex\tex\generic\pgf\systemlayer\pgfsyssoftpath.co
+de.tex"
+File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
+\pgfsyssoftpath@smallbuffer@items=\count110
+\pgfsyssoftpath@bigbuffer@items=\count111
+)
+("D:\Archivos del programa\MiKTex\tex\generic\pgf\systemlayer\pgfsysprotocol.co
+de.tex"
+File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
+)) ("D:\Archivos del programa\MiKTex\tex\latex\xcolor\xcolor.sty"
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+("D:\Archivos del programa\MiKTex\tex\latex\graphics-cfg\color.cfg"
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+("D:\Archivos del programa\MiKTex\tex\generic\pgf\basiclayer\pgfcore.code.tex"
+Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
+
+("D:\Archivos del programa\MiKTex\tex\generic\pgf\math\pgfmath.code.tex"
+("D:\Archivos del programa\MiKTex\tex\generic\pgf\math\pgfmathcalc.code.tex"
+("D:\Archivos del programa\MiKTex\tex\generic\pgf\math\pgfmathutil.code.tex")
+("D:\Archivos del programa\MiKTex\tex\generic\pgf\math\pgfmathparser.code.tex"
+\pgfmath@dimen=\dimen139
+\pgfmath@count=\count112
+\pgfmath@box=\box35
+\pgfmath@toks=\toks23
+\pgfmath@stack@operand=\toks24
+\pgfmath@stack@operation=\toks25
+)
+("D:\Archivos del programa\MiKTex\tex\generic\pgf\math\pgfmathfunctions.code.te
+x"
+("D:\Archivos del programa\MiKTex\tex\generic\pgf\math\pgfmathfunctions.basic.c
+ode.tex")
+("D:\Archivos del programa\MiKTex\tex\generic\pgf\math\pgfmathfunctions.trigono
+metric.code.tex")
+("D:\Archivos del programa\MiKTex\tex\generic\pgf\math\pgfmathfunctions.random.
+code.tex")
+("D:\Archivos del programa\MiKTex\tex\generic\pgf\math\pgfmathfunctions.compari
+son.code.tex")
+("D:\Archivos del programa\MiKTex\tex\generic\pgf\math\pgfmathfunctions.base.co
+de.tex")
+("D:\Archivos del programa\MiKTex\tex\generic\pgf\math\pgfmathfunctions.round.c
+ode.tex")
+("D:\Archivos del programa\MiKTex\tex\generic\pgf\math\pgfmathfunctions.misc.co
+de.tex")
+("D:\Archivos del programa\MiKTex\tex\generic\pgf\math\pgfmathfunctions.integer
+arithmetics.code.tex")))
+("D:\Archivos del programa\MiKTex\tex\generic\pgf\math\pgfmathfloat.code.tex"
+\c@pgfmathroundto@lastzeros=\count113
+))
+("D:\Archivos del programa\MiKTex\tex\generic\pgf\basiclayer\pgfcorepoints.code
+.tex"
+File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
+\pgf@picminx=\dimen140
+\pgf@picmaxx=\dimen141
+\pgf@picminy=\dimen142
+\pgf@picmaxy=\dimen143
+\pgf@pathminx=\dimen144
+\pgf@pathmaxx=\dimen145
+\pgf@pathminy=\dimen146
+\pgf@pathmaxy=\dimen147
+\pgf@xx=\dimen148
+\pgf@xy=\dimen149
+\pgf@yx=\dimen150
+\pgf@yy=\dimen151
+\pgf@zx=\dimen152
+\pgf@zy=\dimen153
+)
+("D:\Archivos del programa\MiKTex\tex\generic\pgf\basiclayer\pgfcorepathconstru
+ct.code.tex"
+File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
+\pgf@path@lastx=\dimen154
+\pgf@path@lasty=\dimen155
+)
+("D:\Archivos del programa\MiKTex\tex\generic\pgf\basiclayer\pgfcorepathusage.c
+ode.tex"
+File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
+\pgf@shorten@end@additional=\dimen156
+\pgf@shorten@start@additional=\dimen157
+)
+("D:\Archivos del programa\MiKTex\tex\generic\pgf\basiclayer\pgfcorescopes.code
+.tex"
+File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
+\pgfpic=\box36
+\pgf@hbox=\box37
+\pgf@layerbox@main=\box38
+\pgf@picture@serial@count=\count114
+)
+("D:\Archivos del programa\MiKTex\tex\generic\pgf\basiclayer\pgfcoregraphicstat
+e.code.tex"
+File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
+\pgflinewidth=\dimen158
+)
+("D:\Archivos del programa\MiKTex\tex\generic\pgf\basiclayer\pgfcoretransformat
+ions.code.tex"
+File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
+\pgf@pt@x=\dimen159
+\pgf@pt@y=\dimen160
+\pgf@pt@temp=\dimen161
+)
+("D:\Archivos del programa\MiKTex\tex\generic\pgf\basiclayer\pgfcorequick.code.
+tex"
+File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
+)
+("D:\Archivos del programa\MiKTex\tex\generic\pgf\basiclayer\pgfcoreobjects.cod
+e.tex"
+File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
+)
+("D:\Archivos del programa\MiKTex\tex\generic\pgf\basiclayer\pgfcorepathprocess
+ing.code.tex"
+File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
+)
+("D:\Archivos del programa\MiKTex\tex\generic\pgf\basiclayer\pgfcorearrows.code
+.tex"
+File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
+\pgfarrowsep=\dimen162
+)
+("D:\Archivos del programa\MiKTex\tex\generic\pgf\basiclayer\pgfcoreshade.code.
+tex"
+File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
+\pgf@max=\dimen163
+\pgf@sys@shading@range@num=\count115
+)
+("D:\Archivos del programa\MiKTex\tex\generic\pgf\basiclayer\pgfcoreimage.code.
+tex"
+File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
+
+("D:\Archivos del programa\MiKTex\tex\generic\pgf\basiclayer\pgfcoreexternal.co
+de.tex"
+File: pgfcoreexternal.code.tex 2014/07/09  (rcs-revision 1.21)
+\pgfexternal@startupbox=\box39
+))
+("D:\Archivos del programa\MiKTex\tex\generic\pgf\basiclayer\pgfcorelayers.code
+.tex"
+File: pgfcorelayers.code.tex 2013/07/18  (rcs-revision 1.7)
+)
+("D:\Archivos del programa\MiKTex\tex\generic\pgf\basiclayer\pgfcoretransparenc
+y.code.tex"
+File: pgfcoretransparency.code.tex 2013/09/30  (rcs-revision 1.5)
+)
+("D:\Archivos del programa\MiKTex\tex\generic\pgf\basiclayer\pgfcorepatterns.co
+de.tex"
+File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
+))) ("D:\Archivos del programa\MiKTex\tex\latex\pgf\utilities\xxcolor.sty"
+Package: xxcolor 2003/10/24 ver 0.1
+\XC@nummixins=\count116
+\XC@countmixins=\count117
+) ("D:\Archivos del programa\MiKTex\tex\generic\oberdiek\atbegshi.sty"
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+)
+("D:\Archivos del programa\MiKTex\tex\latex\hyperref\hyperref.sty"
+Package: hyperref 2016/06/24 v6.83q Hypertext links for LaTeX
+
+("D:\Archivos del programa\MiKTex\tex\generic\oberdiek\hobsub-hyperref.sty"
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+
+
+("D:\Archivos del programa\MiKTex\tex\generic\oberdiek\hobsub-generic.sty"
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package hobsub Info: Skipping package `ifvtex' (already loaded).
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+Package: pdftexcmds 2016/05/21 v0.22 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
+)
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package hobsub Info: Skipping package `atbegshi' (already loaded).
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+)
+("D:\Archivos del programa\MiKTex\tex\latex\oberdiek\auxhook.sty"
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+)
+("D:\Archivos del programa\MiKTex\tex\latex\oberdiek\kvoptions.sty"
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+)
+\@linkdim=\dimen164
+\Hy@linkcounter=\count118
+\Hy@pagecounter=\count119
+
+("D:\Archivos del programa\MiKTex\tex\latex\hyperref\pd1enc.def"
+File: pd1enc.def 2016/06/24 v6.83q Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count120
+
+("D:\Archivos del programa\MiKTex\tex\latex\00miktex\hyperref.cfg"
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Option `bookmarks' set `true' on input line 4362.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 4362.
+Package hyperref Info: Option `implicit' set `false' on input line 4362.
+Package hyperref Info: Hyper figures OFF on input line 4486.
+Package hyperref Info: Link nesting OFF on input line 4491.
+Package hyperref Info: Hyper index ON on input line 4494.
+Package hyperref Info: Plain pages OFF on input line 4501.
+Package hyperref Info: Backreferencing OFF on input line 4506.
+Package hyperref Info: Implicit mode OFF; no redefinition of LaTeX internals.
+Package hyperref Info: Bookmarks ON on input line 4735.
+\c@Hy@tempcnt=\count121
+
+("D:\Archivos del programa\MiKTex\tex\latex\url\url.sty"
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5088.
+\XeTeXLinkMargin=\dimen165
+\Fld@menulength=\count122
+\Field@Width=\dimen166
+\Fld@charsize=\dimen167
+Package hyperref Info: Hyper figures OFF on input line 6342.
+Package hyperref Info: Link nesting OFF on input line 6347.
+Package hyperref Info: Hyper index ON on input line 6350.
+Package hyperref Info: backreferencing OFF on input line 6357.
+Package hyperref Info: Link coloring OFF on input line 6362.
+Package hyperref Info: Link coloring with OCG OFF on input line 6367.
+Package hyperref Info: PDF/A mode OFF on input line 6372.
+LaTeX Info: Redefining \ref on input line 6412.
+LaTeX Info: Redefining \pageref on input line 6416.
+\Hy@abspage=\count123
+
+
+Package hyperref Message: Stopped early.
+
+)
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+("D:\Archivos del programa\MiKTex\tex\latex\hyperref\hpdftex.def"
+File: hpdftex.def 2016/06/24 v6.83q Hyperref driver for pdfTeX
+\Fld@listcount=\count124
+\c@bookmark@seq@number=\count125
+
+("D:\Archivos del programa\MiKTex\tex\latex\oberdiek\rerunfilecheck.sty"
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+))
+("D:\Archivos del programa\MiKTex\tex\latex\beamer\base\beamerbaserequires.sty"
+Package: beamerbaserequires 2010/05/01  (rcs-revision efa082c6111d)
+
+("D:\Archivos del programa\MiKTex\tex\latex\beamer\base\beamerbasecompatibility
+.sty"
+Package: beamerbasecompatibility 2012/05/01  (rcs-revision 67c48b3b652d)
+)
+("D:\Archivos del programa\MiKTex\tex\latex\beamer\base\beamerbasefont.sty"
+Package: beamerbasefont 2015/01/05  (rcs-revision b4b4bee242e2)
+
+("D:\Archivos del programa\MiKTex\tex\latex\amsfonts\amssymb.sty"
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+("D:\Archivos del programa\MiKTex\tex\latex\amsfonts\amsfonts.sty"
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks26
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)))
+("D:\Archivos del programa\MiKTex\tex\latex\beamer\base\beamerbasetranslator.st
+y"
+Package: beamerbasetranslator 2010/06/11  (rcs-revision 85fd1cc7fc42)
+
+("D:\Archivos del programa\MiKTex\tex\latex\beamer\base\translator\translator.s
+ty"
+Package: translator 2010/06/12 ver 1.10
+
+("D:\Archivos del programa\MiKTex\tex\latex\beamer\base\translator\translator-l
+anguage-mappings.tex")))
+("D:\Archivos del programa\MiKTex\tex\latex\beamer\base\beamerbasemisc.sty"
+Package: beamerbasemisc 2013/09/03  (rcs-revision a55719c41d85)
+)
+("D:\Archivos del programa\MiKTex\tex\latex\beamer\base\beamerbasetwoscreens.st
+y"
+Package: beamerbasetwoscreens 2010/05/01  (rcs-revision efa082c6111d)
+)
+("D:\Archivos del programa\MiKTex\tex\latex\beamer\base\beamerbaseoverlay.sty"
+Package: beamerbaseoverlay 2013/12/25  (rcs-revision f6bd5e3805da)
+\beamer@argscount=\count126
+\beamer@lastskipcover=\skip44
+\beamer@trivlistdepth=\count127
+) ("D:\Archivos del programa\MiKTex\tex\latex\beamer\base\beamerbasetitle.sty"
+Package: beamerbasetitle 2010/09/21  (rcs-revision f0446ed0b6ae)
+)
+("D:\Archivos del programa\MiKTex\tex\latex\beamer\base\beamerbasesection.sty"
+Package: beamerbasesection 2013/06/07  (rcs-revision 60b9fe0f342f)
+\c@lecture=\count128
+\c@part=\count129
+\c@section=\count130
+\c@subsection=\count131
+\c@subsubsection=\count132
+) ("D:\Archivos del programa\MiKTex\tex\latex\beamer\base\beamerbaseframe.sty"
+Package: beamerbaseframe 2014/02/20  (rcs-revision 4b8ceeeff434)
+\beamer@framebox=\box40
+\beamer@frametitlebox=\box41
+\beamer@zoombox=\box42
+\beamer@zoomcount=\count133
+\beamer@zoomframecount=\count134
+\beamer@frametextheight=\dimen168
+\c@subsectionslide=\count135
+\beamer@frametopskip=\skip45
+\beamer@framebottomskip=\skip46
+\beamer@frametopskipautobreak=\skip47
+\beamer@framebottomskipautobreak=\skip48
+\beamer@envbody=\toks27
+\framewidth=\dimen169
+\c@framenumber=\count136
+)
+("D:\Archivos del programa\MiKTex\tex\latex\beamer\base\beamerbaseverbatim.sty"
+Package: beamerbaseverbatim 2015/01/05  (rcs-revision 431510bb5890)
+\beamer@verbatimfileout=\write4
+)
+("D:\Archivos del programa\MiKTex\tex\latex\beamer\base\beamerbaseframesize.sty
+"
+Package: beamerbaseframesize 2011/09/12  (rcs-revision 70f9d8411e54)
+\beamer@splitbox=\box43
+\beamer@autobreakcount=\count137
+\beamer@autobreaklastheight=\dimen170
+\beamer@frametitletoks=\toks28
+\beamer@framesubtitletoks=\toks29
+)
+("D:\Archivos del programa\MiKTex\tex\latex\beamer\base\beamerbaseframecomponen
+ts.sty"
+Package: beamerbaseframecomponents 2013/10/18  (rcs-revision 5cf6c5555a45)
+\beamer@footins=\box44
+)
+("D:\Archivos del programa\MiKTex\tex\latex\beamer\base\beamerbasecolor.sty"
+Package: beamerbasecolor 2015/02/21  (rcs-revision d944b04ee2d5)
+)
+("D:\Archivos del programa\MiKTex\tex\latex\beamer\base\beamerbasenotes.sty"
+Package: beamerbasenotes 2012/12/19  (rcs-revision 1686da3db3c9)
+\beamer@frameboxcopy=\box45
+)
+("D:\Archivos del programa\MiKTex\tex\latex\beamer\base\beamerbasetoc.sty"
+Package: beamerbasetoc 2015/03/08  (rcs-revision 7270298bbaae)
+)
+("D:\Archivos del programa\MiKTex\tex\latex\beamer\base\beamerbasetemplates.sty
+"
+Package: beamerbasetemplates 2010/05/01  (rcs-revision efa082c6111d)
+\beamer@sbttoks=\toks30
+
+("D:\Archivos del programa\MiKTex\tex\latex\beamer\base\beamerbaseauxtemplates.
+sty"
+Package: beamerbaseauxtemplates 2014/06/30  (rcs-revision 580088513a67)
+ ("D:\Archivos del programa\MiKTex\tex\latex\beamer\base\beamerbaseboxes.sty"
+Package: beamerbaseboxes 2012/05/13  (rcs-revision 56972908a390)
+\bmb@box=\box46
+\bmb@colorbox=\box47
+\bmb@boxshadow=\box48
+\bmb@boxshadowball=\box49
+\bmb@boxshadowballlarge=\box50
+\bmb@temp=\dimen171
+\bmb@dima=\dimen172
+\bmb@dimb=\dimen173
+\bmb@prevheight=\dimen174
+)
+\beamer@blockheadheight=\dimen175
+))
+("D:\Archivos del programa\MiKTex\tex\latex\beamer\base\beamerbaselocalstructur
+e.sty"
+Package: beamerbaselocalstructure 2014/09/10  (rcs-revision 393f6dcff371)
+ ("D:\Archivos del programa\MiKTex\tex\latex\tools\enumerate.sty"
+Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
+\@enLab=\toks31
+)
+\c@figure=\count138
+\c@table=\count139
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+)
+("D:\Archivos del programa\MiKTex\tex\latex\beamer\base\beamerbasenavigation.st
+y"
+Package: beamerbasenavigation 2015/02/27  (rcs-revision 923f4bf87efa)
+\beamer@section@min@dim=\dimen176
+)
+("D:\Archivos del programa\MiKTex\tex\latex\beamer\base\beamerbasetheorems.sty"
+Package: beamerbasetheorems 2010/06/06  (rcs-revision 7e7cc5e53e9d)
+("D:\Archivos del programa\MiKTex\tex\latex\amsmath\amsmath.sty"
+Package: amsmath 2016/06/28 v2.15d AMS math features
+\@mathmargin=\skip51
+
+For additional information on amsmath, use the `?' option.
+("D:\Archivos del programa\MiKTex\tex\latex\amsmath\amstext.sty"
+Package: amstext 2000/06/29 v2.01 AMS text
+
+("D:\Archivos del programa\MiKTex\tex\latex\amsmath\amsgen.sty"
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks32
+\ex@=\dimen177
+))
+("D:\Archivos del programa\MiKTex\tex\latex\amsmath\amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen178
+)
+("D:\Archivos del programa\MiKTex\tex\latex\amsmath\amsopn.sty"
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count140
+LaTeX Info: Redefining \frac on input line 199.
+\uproot@=\count141
+\leftroot@=\count142
+LaTeX Info: Redefining \overline on input line 297.
+\classnum@=\count143
+\DOTSCASE@=\count144
+LaTeX Info: Redefining \ldots on input line 394.
+LaTeX Info: Redefining \dots on input line 397.
+LaTeX Info: Redefining \cdots on input line 518.
+\Mathstrutbox@=\box51
+\strutbox@=\box52
+\big@size=\dimen179
+LaTeX Font Info:    Redeclaring font encoding OML on input line 634.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 635.
+\macc@depth=\count145
+\c@MaxMatrixCols=\count146
+\dotsspace@=\muskip11
+\c@parentequation=\count147
+\dspbrk@lvl=\count148
+\tag@help=\toks33
+\row@=\count149
+\column@=\count150
+\maxfields@=\count151
+\andhelp@=\toks34
+\eqnshift@=\dimen180
+\alignsep@=\dimen181
+\tagshift@=\dimen182
+\tagwidth@=\dimen183
+\totwidth@=\dimen184
+\lineht@=\dimen185
+\@envbody=\toks35
+\multlinegap=\skip52
+\multlinetaggap=\skip53
+\mathdisplay@stack=\toks36
+LaTeX Info: Redefining \[ on input line 2739.
+LaTeX Info: Redefining \] on input line 2740.
+)
+("D:\Archivos del programa\MiKTex\tex\latex\amscls\amsthm.sty"
+Package: amsthm 2015/03/04 v2.20.2
+\thm@style=\toks37
+\thm@bodyfont=\toks38
+\thm@headfont=\toks39
+\thm@notefont=\toks40
+\thm@headpunct=\toks41
+\thm@preskip=\skip54
+\thm@postskip=\skip55
+\thm@headsep=\skip56
+\dth@everypar=\toks42
+)
+\c@theorem=\count152
+)
+("D:\Archivos del programa\MiKTex\tex\latex\beamer\base\beamerbasethemes.sty"
+Package: beamerbasethemes 2010/05/01  (rcs-revision efa082c6111d)
+))
+("D:\Archivos del programa\MiKTex\tex\latex\beamer\base\themes\theme\beamerthem
+edefault.sty"
+Package: beamerthemedefault 2010/06/17  (rcs-revision d02a7cf4d8ae)
+
+("D:\Archivos del programa\MiKTex\tex\latex\beamer\base\themes\font\beamerfontt
+hemedefault.sty"
+Package: beamerfontthemedefault 2012/12/19  (rcs-revision 1686da3db3c9)
+)
+("D:\Archivos del programa\MiKTex\tex\latex\beamer\base\themes\color\beamercolo
+rthemedefault.sty"
+Package: beamercolorthemedefault 2012/12/19  (rcs-revision 1686da3db3c9)
+)
+("D:\Archivos del programa\MiKTex\tex\latex\beamer\base\themes\inner\beamerinne
+rthemedefault.sty"
+Package: beamerinnerthemedefault 2014/06/30  (rcs-revision 580088513a67)
+\beamer@dima=\dimen186
+\beamer@dimb=\dimen187
+)
+("D:\Archivos del programa\MiKTex\tex\latex\beamer\base\themes\outer\beameroute
+rthemedefault.sty"
+Package: beamerouterthemedefault 2012/12/19  (rcs-revision 1686da3db3c9)
+)))
+("D:\Archivos del programa\MiKTex\tex\latex\beamer\base\themes\theme\beamerthem
+eWarsaw.sty"
+Package: beamerthemeWarsaw 2010/06/17  (rcs-revision d02a7cf4d8ae)
+
+("D:\Archivos del programa\MiKTex\tex\latex\beamer\base\themes\inner\beamerinne
+rthemerounded.sty"
+Package: beamerinnerthemerounded 2010/06/17  (rcs-revision d02a7cf4d8ae)
+)
+("D:\Archivos del programa\MiKTex\tex\latex\beamer\base\themes\outer\beameroute
+rthemeshadow.sty"
+Package: beamerouterthemeshadow 2010/06/17  (rcs-revision d02a7cf4d8ae)
+
+("D:\Archivos del programa\MiKTex\tex\latex\beamer\base\themes\outer\beameroute
+rthemesplit.sty"
+Package: beamerouterthemesplit 2012/10/16  (rcs-revision 51a8c72084af)
+))
+("D:\Archivos del programa\MiKTex\tex\latex\beamer\base\themes\color\beamercolo
+rthemeorchid.sty"
+Package: beamercolorthemeorchid 2010/06/17  (rcs-revision d02a7cf4d8ae)
+)
+("D:\Archivos del programa\MiKTex\tex\latex\beamer\base\themes\color\beamercolo
+rthemewhale.sty"
+Package: beamercolorthemewhale 2010/06/17  (rcs-revision d02a7cf4d8ae)
+)) ("D:\Archivos del programa\MiKTex\tex\latex\base\inputenc.sty"
+Package: inputenc 2015/03/17 v1.2c Input encoding file
+\inpenc@prehook=\toks43
+\inpenc@posthook=\toks44
+ ("D:\Archivos del programa\MiKTex\tex\latex\base\latin1.def"
+File: latin1.def 2015/03/17 v1.2c Input encoding file
+))
+("D:\Archivos del programa\MiKTex\tex\generic\babel\babel.sty"
+Package: babel 2016/04/23 3.9r The Babel package
+
+*************************************
+* Local config file bblopts.cfg used
+*
+("D:\Archivos del programa\MiKTex\tex\latex\arabi\bblopts.cfg"
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+("D:\Archivos del programa\MiKTex\tex\latex\babel-spanish\spanish.ldf"
+Language: spanish.ldf 2016/03/03 v5.0p Spanish support from the babel system
+
+("D:\Archivos del programa\MiKTex\tex\generic\babel\babel.def"
+File: babel.def 2016/04/23 3.9r Babel common definitions
+\babel@savecnt=\count153
+\U@D=\dimen188
+LaTeX Info: Redefining \textlatin on input line 1448.
+)
+\es@quottoks=\toks45
+\es@quotdepth=\count154
+Package babel Info: Making " an active character on input line 561.
+Package babel Info: Making . an active character on input line 662.
+Package babel Info: Making < an active character on input line 707.
+Package babel Info: Making > an active character on input line 707.
+))
+("D:\Archivos del programa\MiKTex\tex\latex\listings\listings.sty"
+\lst@mode=\count155
+\lst@gtempboxa=\box53
+\lst@token=\toks46
+\lst@length=\count156
+\lst@currlwidth=\dimen189
+\lst@column=\count157
+\lst@pos=\count158
+\lst@lostspace=\dimen190
+\lst@width=\dimen191
+\lst@newlines=\count159
+\lst@lineno=\count160
+\lst@maxwidth=\dimen192
+
+("D:\Archivos del programa\MiKTex\tex\latex\listings\lstmisc.sty"
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+\c@lstnumber=\count161
+\lst@skipnumbers=\count162
+\lst@framebox=\box54
+)
+("D:\Archivos del programa\MiKTex\tex\latex\listings\listings.cfg"
+File: listings.cfg 2015/06/04 1.6 listings configuration
+))
+Package: listings 2015/06/04 1.6 (Carsten Heinz)
+
+("D:\Archivos del programa\MiKTex\tex\latex\float\float.sty"
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count163
+\float@exts=\toks47
+\float@box=\box55
+\@float@everytoks=\toks48
+\@floatcapt=\box56
+) (presentacion.aux
+LaTeX Info: Redefining \. on input line 25.
+LaTeX Info: Redefining \% on input line 25.
+
+LaTeX Warning: Label `fig:car' multiply defined.
+
+
+LaTeX Warning: Label `fig:car' multiply defined.
+
+)
+\openout1 = `presentacion.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: custom
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: includehead includefoot 
+* h-part:(L,W,R)=(28.45274pt, 307.28987pt, 28.45274pt)
+* v-part:(T,H,B)=(0.0pt, 273.14662pt, 0.0pt)
+* \paperwidth=364.19536pt
+* \paperheight=273.14662pt
+* \textwidth=307.28987pt
+* \textheight=244.6939pt
+* \oddsidemargin=-43.81725pt
+* \evensidemargin=-43.81725pt
+* \topmargin=-72.26999pt
+* \headheight=14.22636pt
+* \headsep=0.0pt
+* \topskip=9.0pt
+* \footskip=14.22636pt
+* \marginparwidth=4.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=8.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+("D:\Archivos del programa\MiKTex\tex\context\base\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count164
+\scratchdimen=\dimen193
+\scratchbox=\box57
+\nofMPsegments=\count165
+\nofMParguments=\count166
+\everyMPshowfont=\toks49
+\MPscratchCnt=\count167
+\MPscratchDim=\dimen194
+\MPnumerator=\count168
+\makeMPintoPDFobject=\count169
+\everyMPtoPDFconversion=\toks50
+) ("D:\Archivos del programa\MiKTex\tex\latex\oberdiek\epstopdf-base.sty"
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+("D:\Archivos del programa\MiKTex\tex\latex\oberdiek\grfext.sty"
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+)
+ABD: EveryShipout initializing macros
+\AtBeginShipoutBox=\box58
+Package hyperref Info: Link coloring OFF on input line 26.
+
+("D:\Archivos del programa\MiKTex\tex\latex\hyperref\nameref.sty"
+Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
+
+("D:\Archivos del programa\MiKTex\tex\generic\oberdiek\gettitlestring.sty"
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count170
+)
+LaTeX Info: Redefining \ref on input line 26.
+LaTeX Info: Redefining \pageref on input line 26.
+LaTeX Info: Redefining \nameref on input line 26.
+
+(presentacion.out) (presentacion.out)
+\@outlinefile=\write5
+\openout5 = `presentacion.out'.
+
+
+("D:\Archivos del programa\MiKTex\tex\latex\beamer\base\translator\dicts\transl
+ator-basic-dictionary\translator-basic-dictionary-English.dict"
+Dictionary: translator-basic-dictionary, Language: English 
+)
+("D:\Archivos del programa\MiKTex\tex\latex\beamer\base\translator\dicts\transl
+ator-bibliography-dictionary\translator-bibliography-dictionary-English.dict"
+Dictionary: translator-bibliography-dictionary, Language: English 
+)
+("D:\Archivos del programa\MiKTex\tex\latex\beamer\base\translator\dicts\transl
+ator-environment-dictionary\translator-environment-dictionary-English.dict"
+Dictionary: translator-environment-dictionary, Language: English 
+)
+("D:\Archivos del programa\MiKTex\tex\latex\beamer\base\translator\dicts\transl
+ator-months-dictionary\translator-months-dictionary-English.dict"
+Dictionary: translator-months-dictionary, Language: English 
+)
+("D:\Archivos del programa\MiKTex\tex\latex\beamer\base\translator\dicts\transl
+ator-numbers-dictionary\translator-numbers-dictionary-English.dict"
+Dictionary: translator-numbers-dictionary, Language: English 
+)
+("D:\Archivos del programa\MiKTex\tex\latex\beamer\base\translator\dicts\transl
+ator-theorem-dictionary\translator-theorem-dictionary-English.dict"
+Dictionary: translator-theorem-dictionary, Language: English 
+)
+LaTeX Info: Redefining \includegraphics on input line 26.
+LaTeX Info: Redefining \. on input line 26.
+LaTeX Info: Redefining \% on input line 26.
+\c@lstlisting=\count171
+
+(presentacion.nav)
+
+Package hyperref Warning: Option `pdfauthor' has already been used,
+(hyperref)                setting the option has no effect on input line 28.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <4> not available
+(Font)              size <5> substituted on input line 40.
+
+<logo_vect.png, id=95, 169.8345pt x 338.2236pt>
+File: logo_vect.png Graphic file (type png)
+ <use logo_vect.png>
+Package pdftex.def Info: logo_vect.png used on input line 40.
+(pdftex.def)             Requested size: 16.98444pt x 33.82434pt.
+ [1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
+
+ <./logo_vect.png>]
+(presentacion.toc
+LaTeX Info: Redefining \. on input line 2.
+LaTeX Info: Redefining \% on input line 2.
+)
+File: logo_vect.png Graphic file (type png)
+ <use logo_vect.png>
+Package pdftex.def Info: logo_vect.png used on input line 43.
+(pdftex.def)             Requested size: 16.98444pt x 33.82434pt.
+ [2
+
+]
+File: logo_vect.png Graphic file (type png)
+ <use logo_vect.png>
+Package pdftex.def Info: logo_vect.png used on input line 59.
+(pdftex.def)             Requested size: 16.98444pt x 33.82434pt.
+ [3
+
+]
+File: logo_vect.png Graphic file (type png)
+
+<use logo_vect.png>
+Package pdftex.def Info: logo_vect.png used on input line 68.
+(pdftex.def)             Requested size: 16.98444pt x 33.82434pt.
+ [4
+
+] <freeboard.png, id=191, 501.875pt x 351.3125pt>
+File: freeboard.png Graphic file (type png)
+
+<use freeboard.png>
+Package pdftex.def Info: freeboard.png used on input line 79.
+(pdftex.def)             Requested size: 227.62204pt x 159.33817pt.
+File: logo_vect.png Graphic file (type png)
+ <use logo_vect.png>
+Package pdftex.def Info: logo_vect.png used on input line 79.
+(pdftex.def)             Requested size: 16.98444pt x 33.82434pt.
+ [5
+
+ <./freeboard.png>]
+<manyeyes.png, id=208, 1028.34187pt x 514.92375pt>
+File: manyeyes.png Graphic file (type png)
+ <use manyeyes.png>
+Package pdftex.def Info: manyeyes.png used on input line 90.
+(pdftex.def)             Requested size: 227.62204pt x 113.97499pt.
+pdfTeX warning (ext4): destination with the same identifier (name{fig:car}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.90 \end{frame}
+                
+File: logo_vect.png Graphic file (type png)
+ <use logo_vect.png>
+Package pdftex.def Info: logo_vect.png used on input line 90.
+(pdftex.def)             Requested size: 16.98444pt x 33.82434pt.
+ [6
+
+ <./manyeyes.png>]
+<examplekibana.png, id=223, 1344.52313pt x 729.47531pt>
+File: examplekibana.png Graphic file (type png)
+
+<use examplekibana.png>
+Package pdftex.def Info: examplekibana.png used on input line 100.
+(pdftex.def)             Requested size: 256.0748pt x 138.93567pt.
+pdfTeX warning (ext4): destination with the same identifier (name{fig:car}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.100 \end{frame}
+                 
+File: logo_vect.png Graphic file (type png)
+ <use logo_vect.png>
+Package pdftex.def Info: logo_vect.png used on input line 100.
+(pdftex.def)             Requested size: 16.98444pt x 33.82434pt.
+ [7
+
+ <./examplekibana.png>]
+File: logo_vect.png Graphic file (type png)
+
+<use logo_vect.png>
+Package pdftex.def Info: logo_vect.png used on input line 120.
+(pdftex.def)             Requested size: 16.98444pt x 33.82434pt.
+ [8
+
+]
+File: logo_vect.png Graphic file (type png)
+ <use logo_vect.png>
+Package pdftex.def Info: logo_vect.png used on input line 146.
+(pdftex.def)             Requested size: 16.98444pt x 33.82434pt.
+ [9
+
+]
+<SCRUM.png, id=269, 1593.955pt x 865.2325pt>
+File: SCRUM.png Graphic file (type png)
+ <use SCRUM.png>
+Package pdftex.def Info: SCRUM.png used on input line 161.
+(pdftex.def)             Requested size: 318.78535pt x 173.04343pt.
+
+Overfull \hbox (11.49548pt too wide) in paragraph at lines 161--161
+ [] 
+ []
+
+
+Overfull \vbox (12.8458pt too high) detected at line 161
+ []
+
+File: logo_vect.png Graphic file (type png)
+<use logo_vect.png>
+Package pdftex.def Info: logo_vect.png used on input line 161.
+(pdftex.def)             Requested size: 16.98444pt x 33.82434pt.
+ [10
+
+ <./SCRUM.png>]
+File: logo_vect.png Graphic file (type png)
+ <use logo_vect.png>
+Package pdftex.def Info: logo_vect.png used on input line 175.
+(pdftex.def)             Requested size: 16.98444pt x 33.82434pt.
+ [11
+
+]
+<sigma3.png, id=297, 937.5025pt x 939.51pt>
+File: sigma3.png Graphic file (type png)
+ <use sigma3.png>
+Package pdftex.def Info: sigma3.png used on input line 192.
+(pdftex.def)             Requested size: 142.26378pt x 142.55469pt.
+
+<visjs2.png, id=298, 743.77875pt x 623.32875pt>
+File: visjs2.png Graphic file (type png)
+ <use visjs2.png>
+Package pdftex.def Info: visjs2.png used on input line 192.
+(pdftex.def)             Requested size: 142.26378pt x 119.22311pt.
+File: logo_vect.png Graphic file (type png)
+
+<use logo_vect.png>
+Package pdftex.def Info: logo_vect.png used on input line 192.
+(pdftex.def)             Requested size: 16.98444pt x 33.82434pt.
+ [12
+
+ <./sigma3.png> <./visjs2.png>]
+<html.png, id=313, 1370.11874pt x 649.42625pt>
+File: html.png Graphic file (type png)
+ <use html.png>
+Package pdftex.def Info: html.png used on input line 209.
+(pdftex.def)             Requested size: 170.71652pt x 80.91052pt.
+
+Overfull \hbox (17.0716pt too wide) in paragraph at lines 209--209
+ [] 
+ []
+
+<tagcloud.png, id=314, 1370.11874pt x 648.4225pt>
+File: tagcloud.png Graphic file (type png)
+ <use tagcloud.png>
+Package pdftex.def Info: tagcloud.png used on input line 209.
+(pdftex.def)             Requested size: 170.71652pt x 80.78546pt.
+
+Overfull \hbox (17.0716pt too wide) in paragraph at lines 209--209
+ [] 
+ []
+
+File: logo_vect.png Graphic file (type png)
+<use logo_vect.png>
+Package pdftex.def Info: logo_vect.png used on input line 209.
+(pdftex.def)             Requested size: 16.98444pt x 33.82434pt.
+ [13
+
+ <./html.png> <./tagcloud.png>]
+<integration.png, id=330, 1370.11874pt x 654.445pt>
+File: integration.png Graphic file (type png)
+ <use integration.png>
+Package pdftex.def Info: integration.png used on input line 226.
+(pdftex.def)             Requested size: 170.71652pt x 81.5358pt.
+
+Overfull \hbox (17.0716pt too wide) in paragraph at lines 226--226
+ [] 
+ []
+
+<visualizationwithdata.png, id=331, 1019.81pt x 566.115pt>
+File: visualizationwithdata.png Graphic file (type png)
+
+<use visualizationwithdata.png>
+Package pdftex.def Info: visualizationwithdata.png used on input line 226.
+(pdftex.def)             Requested size: 170.71652pt x 94.76114pt.
+
+Overfull \hbox (17.0716pt too wide) in paragraph at lines 226--226
+ [] 
+ []
+
+File: logo_vect.png Graphic file (type png)
+<use logo_vect.png>
+Package pdftex.def Info: logo_vect.png used on input line 226.
+(pdftex.def)             Requested size: 16.98444pt x 33.82434pt.
+ [14
+
+ <./integration.png> <./visualizationwithdata.png>]
+<integrationdashboard1.png, id=346, 1370.11874pt x 613.29124pt>
+File: integrationdashboard1.png Graphic file (type png)
+
+<use integrationdashboard1.png>
+Package pdftex.def Info: integrationdashboard1.png used on input line 243.
+(pdftex.def)             Requested size: 170.71652pt x 76.40854pt.
+
+Overfull \hbox (17.0716pt too wide) in paragraph at lines 243--243
+ [] 
+ []
+
+<integrationdashboard2.png, id=347, 1370.11874pt x 615.29875pt>
+File: integrationdashboard2.png Graphic file (type png)
+
+<use integrationdashboard2.png>
+Package pdftex.def Info: integrationdashboard2.png used on input line 243.
+(pdftex.def)             Requested size: 170.71652pt x 76.65865pt.
+
+Overfull \hbox (17.0716pt too wide) in paragraph at lines 243--243
+ [] 
+ []
+
+File: logo_vect.png Graphic file (type png)
+<use logo_vect.png>
+Package pdftex.def Info: logo_vect.png used on input line 243.
+(pdftex.def)             Requested size: 16.98444pt x 33.82434pt.
+ [15
+
+ <./integrationdashboard1.png> <./integrationdashboard2.png>] <noderelation.png
+, id=362, 345.29pt x 199.74625pt>
+File: noderelation.png Graphic file (type png)
+
+<use noderelation.png>
+Package pdftex.def Info: noderelation.png used on input line 260.
+(pdftex.def)             Requested size: 170.71652pt x 98.75735pt.
+
+Overfull \hbox (17.0716pt too wide) in paragraph at lines 260--260
+ [] 
+ []
+
+<sizecolornetwork.png, id=363, 1370.11874pt x 615.29875pt>
+File: sizecolornetwork.png Graphic file (type png)
+
+<use sizecolornetwork.png>
+Package pdftex.def Info: sizecolornetwork.png used on input line 260.
+(pdftex.def)             Requested size: 170.71652pt x 76.65865pt.
+
+Overfull \hbox (17.0716pt too wide) in paragraph at lines 260--260
+ [] 
+ []
+
+File: logo_vect.png Graphic file (type png)
+<use logo_vect.png>
+Package pdftex.def Info: logo_vect.png used on input line 260.
+(pdftex.def)             Requested size: 16.98444pt x 33.82434pt.
+ [16
+
+ <./noderelation.png> <./sizecolornetwork.png>]
+<codediagram2.png, id=378, 559.33969pt x 405.01312pt>
+File: codediagram2.png Graphic file (type png)
+ <use codediagram2.png>
+Package pdftex.def Info: codediagram2.png used on input line 271.
+(pdftex.def)             Requested size: 256.0748pt x 185.42455pt.
+File: logo_vect.png Graphic file (type png)
+
+<use logo_vect.png>
+Package pdftex.def Info: logo_vect.png used on input line 271.
+(pdftex.def)             Requested size: 16.98444pt x 33.82434pt.
+ [17
+
+ <./codediagram2.png>]
+<lista.png, id=394, 1425.07407pt x 737.00343pt>
+File: lista.png Graphic file (type png)
+ <use lista.png>
+Package pdftex.def Info: lista.png used on input line 288.
+(pdftex.def)             Requested size: 170.71652pt x 88.27914pt.
+
+Overfull \hbox (17.0716pt too wide) in paragraph at lines 288--288
+ [] 
+ []
+
+<pagevis.png, id=395, 1443.89438pt x 737.75626pt>
+File: pagevis.png Graphic file (type png)
+ <use pagevis.png>
+Package pdftex.def Info: pagevis.png used on input line 288.
+(pdftex.def)             Requested size: 170.71652pt x 87.22108pt.
+
+Overfull \hbox (17.0716pt too wide) in paragraph at lines 288--288
+ [] 
+ []
+
+File: logo_vect.png Graphic file (type png)
+<use logo_vect.png>
+Package pdftex.def Info: logo_vect.png used on input line 288.
+(pdftex.def)             Requested size: 16.98444pt x 33.82434pt.
+ [18
+
+ <./lista.png> <./pagevis.png>]
+File: logo_vect.png Graphic file (type png)
+ <use logo_vect.png>
+Package pdftex.def Info: logo_vect.png used on input line 305.
+(pdftex.def)             Requested size: 16.98444pt x 33.82434pt.
+
+[19
+
+]
+Overfull \vbox (7.12679pt too high) detected at line 323
+ []
+
+File: logo_vect.png Graphic file (type png)
+<use logo_vect.png>
+Package pdftex.def Info: logo_vect.png used on input line 323.
+(pdftex.def)             Requested size: 16.98444pt x 33.82434pt.
+ [20
+
+] <onlynodes.png, id=448, 1370.11874pt x 615.29875pt>
+File: onlynodes.png Graphic file (type png)
+
+<use onlynodes.png>
+Package pdftex.def Info: onlynodes.png used on input line 334.
+(pdftex.def)             Requested size: 312.9803pt x 140.54869pt.
+
+Overfull \hbox (5.69043pt too wide) in paragraph at lines 334--334
+ [] 
+ []
+
+File: logo_vect.png Graphic file (type png)
+<use logo_vect.png>
+Package pdftex.def Info: logo_vect.png used on input line 334.
+(pdftex.def)             Requested size: 16.98444pt x 33.82434pt.
+ [21
+
+ <./onlynodes.png>]
+<nodesrelated.png, id=464, 1370.11874pt x 613.29124pt>
+File: nodesrelated.png Graphic file (type png)
+ <use nodesrelated.png>
+Package pdftex.def Info: nodesrelated.png used on input line 342.
+(pdftex.def)             Requested size: 312.9803pt x 140.09013pt.
+
+Overfull \hbox (5.69043pt too wide) in paragraph at lines 342--342
+ [] 
+ []
+
+File: logo_vect.png Graphic file (type png)
+<use logo_vect.png>
+Package pdftex.def Info: logo_vect.png used on input line 342.
+(pdftex.def)             Requested size: 16.98444pt x 33.82434pt.
+ [22
+
+ <./nodesrelated.png>]
+<nodenode.png, id=481, 1370.11874pt x 614.295pt>
+File: nodenode.png Graphic file (type png)
+ <use nodenode.png>
+Package pdftex.def Info: nodenode.png used on input line 350.
+(pdftex.def)             Requested size: 312.9803pt x 140.31941pt.
+
+Overfull \hbox (5.69043pt too wide) in paragraph at lines 350--350
+ [] 
+ []
+
+File: logo_vect.png Graphic file (type png)
+<use logo_vect.png>
+Package pdftex.def Info: logo_vect.png used on input line 350.
+(pdftex.def)             Requested size: 16.98444pt x 33.82434pt.
+ [23
+
+ <./nodenode.png>]
+<nodecolor.png, id=498, 1370.11874pt x 614.295pt>
+File: nodecolor.png Graphic file (type png)
+ <use nodecolor.png>
+Package pdftex.def Info: nodecolor.png used on input line 358.
+(pdftex.def)             Requested size: 312.9803pt x 140.31941pt.
+
+Overfull \hbox (5.69043pt too wide) in paragraph at lines 358--358
+ [] 
+ []
+
+File: logo_vect.png Graphic file (type png)
+<use logo_vect.png>
+Package pdftex.def Info: logo_vect.png used on input line 358.
+(pdftex.def)             Requested size: 16.98444pt x 33.82434pt.
+ [24
+
+ <./nodecolor.png>]
+<sizes.png, id=515, 1370.11874pt x 612.2875pt>
+File: sizes.png Graphic file (type png)
+ <use sizes.png>
+Package pdftex.def Info: sizes.png used on input line 366.
+(pdftex.def)             Requested size: 312.9803pt x 139.86086pt.
+
+Overfull \hbox (5.69043pt too wide) in paragraph at lines 366--366
+ [] 
+ []
+
+File: logo_vect.png Graphic file (type png)
+<use logo_vect.png>
+Package pdftex.def Info: logo_vect.png used on input line 366.
+(pdftex.def)             Requested size: 16.98444pt x 33.82434pt.
+ [25
+
+ <./sizes.png>]
+<optionschanged.png, id=533, 1371.1225pt x 617.30624pt>
+File: optionschanged.png Graphic file (type png)
+
+<use optionschanged.png>
+Package pdftex.def Info: optionschanged.png used on input line 374.
+(pdftex.def)             Requested size: 312.9803pt x 140.90364pt.
+
+Overfull \hbox (5.69043pt too wide) in paragraph at lines 374--374
+ [] 
+ []
+
+File: logo_vect.png Graphic file (type png)
+<use logo_vect.png>
+Package pdftex.def Info: logo_vect.png used on input line 374.
+(pdftex.def)             Requested size: 16.98444pt x 33.82434pt.
+ [26
+
+ <./optionschanged.png>]
+<Dashboard.png, id=551, 1926.19624pt x 959.585pt>
+File: Dashboard.png Graphic file (type png)
+ <use Dashboard.png>
+Package pdftex.def Info: Dashboard.png used on input line 382.
+(pdftex.def)             Requested size: 312.9803pt x 155.90875pt.
+
+Overfull \hbox (5.69043pt too wide) in paragraph at lines 382--382
+ [] 
+ []
+
+File: logo_vect.png Graphic file (type png)
+<use logo_vect.png>
+Package pdftex.def Info: logo_vect.png used on input line 382.
+(pdftex.def)             Requested size: 16.98444pt x 33.82434pt.
+ [27
+
+ <./Dashboard.png>]
+File: logo_vect.png Graphic file (type png)
+ <use logo_vect.png>
+Package pdftex.def Info: logo_vect.png used on input line 391.
+(pdftex.def)             Requested size: 16.98444pt x 33.82434pt.
+ [28
+
+]
+File: logo_vect.png Graphic file (type png)
+
+<use logo_vect.png>
+Package pdftex.def Info: logo_vect.png used on input line 404.
+(pdftex.def)             Requested size: 16.98444pt x 33.82434pt.
+ [29
+
+]
+File: logo_vect.png Graphic file (type png)
+ <use logo_vect.png>
+Package pdftex.def Info: logo_vect.png used on input line 417.
+(pdftex.def)             Requested size: 16.98444pt x 33.82434pt.
+ [30
+
+]
+<test1.png, id=621, 910.90312pt x 633.86812pt>
+File: test1.png Graphic file (type png)
+ <use test1.png>
+Package pdftex.def Info: test1.png used on input line 434.
+(pdftex.def)             Requested size: 170.71652pt x 118.79195pt.
+
+Overfull \hbox (17.0716pt too wide) in paragraph at lines 434--434
+ [] 
+ []
+
+<test2.png, id=622, 1798.72pt x 963.6pt>
+File: test2.png Graphic file (type png)
+ <use test2.png>
+Package pdftex.def Info: test2.png used on input line 434.
+(pdftex.def)             Requested size: 170.71652pt x 91.45473pt.
+
+Overfull \hbox (17.0716pt too wide) in paragraph at lines 434--434
+ [] 
+ []
+
+File: logo_vect.png Graphic file (type png)
+<use logo_vect.png>
+Package pdftex.def Info: logo_vect.png used on input line 434.
+(pdftex.def)             Requested size: 16.98444pt x 33.82434pt.
+ [31
+
+ <./test1.png> <./test2.png>]
+File: logo_vect.png Graphic file (type png)
+ <use logo_vect.png>
+Package pdftex.def Info: logo_vect.png used on input line 449.
+(pdftex.def)             Requested size: 16.98444pt x 33.82434pt.
+
+[32
+
+]
+LaTeX Font Info:    Try loading font information for U+msa on input line 462.
+ ("D:\Archivos del programa\MiKTex\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 462.
+
+("D:\Archivos del programa\MiKTex\tex\latex\amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+File: logo_vect.png Graphic file (type png)
+
+<use logo_vect.png>
+Package pdftex.def Info: logo_vect.png used on input line 462.
+(pdftex.def)             Requested size: 16.98444pt x 33.82434pt.
+ [33
+
+]
+File: logo_vect.png Graphic file (type png)
+ <use logo_vect.png>
+Package pdftex.def Info: logo_vect.png used on input line 476.
+(pdftex.def)             Requested size: 16.98444pt x 33.82434pt.
+ [34
+
+]
+File: logo_vect.png Graphic file (type png)
+ <use logo_vect.png>
+Package pdftex.def Info: logo_vect.png used on input line 511.
+(pdftex.def)             Requested size: 16.98444pt x 33.82434pt.
+ [35
+
+]
+File: logo_vect.png Graphic file (type png)
+
+<use logo_vect.png>
+Package pdftex.def Info: logo_vect.png used on input line 541.
+(pdftex.def)             Requested size: 16.98444pt x 33.82434pt.
+ [36
+
+]
+File: logo_vect.png Graphic file (type png)
+ <use logo_vect.png>
+Package pdftex.def Info: logo_vect.png used on input line 552.
+(pdftex.def)             Requested size: 16.98444pt x 33.82434pt.
+ [37
+
+]
+\tf@nav=\write6
+\openout6 = `presentacion.nav'.
+
+\tf@toc=\write7
+\openout7 = `presentacion.toc'.
+
+\tf@snm=\write8
+\openout8 = `presentacion.snm'.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 554.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 554.
+ (presentacion.aux
+LaTeX Info: Redefining \. on input line 25.
+LaTeX Info: Redefining \% on input line 25.
+)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 554.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 554.
+Package rerunfilecheck Info: File `presentacion.out' has not changed.
+(rerunfilecheck)             Checksum: 652A8C481F4B72C7BBC5F6F0D5C13B9D;1109.
+
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 1.0pt have occurred.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 554.
+ ) 
+Here is how much of TeX's memory you used:
+ 19364 strings out of 493333
+ 362059 string characters out of 3137469
+ 444061 words of memory out of 3000000
+ 22332 multiletter control sequences out of 15000+200000
+ 12380 words of font info for 48 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 48i,20n,63p,435b,888s stack positions out of 5000i,500n,10000p,200000b,50000s
+<D:/Archivos del programa/MiKTex/fonts/type1/public/amsfonts/cm/cmbx12.pfb><D
+:/Archivos del programa/MiKTex/fonts/type1/public/amsfonts/cm/cmbx8.pfb><D:/Arc
+hivos del programa/MiKTex/fonts/type1/public/amsfonts/cm/cmbx9.pfb><D:/Archivos
+ del programa/MiKTex/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/Archivos del 
+programa/MiKTex/fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/Archivos del progr
+ama/MiKTex/fonts/type1/public/amsfonts/cm/cmr5.pfb><D:/Archivos del programa/Mi
+KTex/fonts/type1/public/amsfonts/cm/cmr6.pfb><D:/Archivos del programa/MiKTex/f
+onts/type1/public/amsfonts/cm/cmr8.pfb><D:/Archivos del programa/MiKTex/fonts/t
+ype1/public/amsfonts/cm/cmr9.pfb><D:/Archivos del programa/MiKTex/fonts/type1/p
+ublic/amsfonts/cm/cmti9.pfb><D:/Archivos del programa/MiKTex/fonts/type1/public
+/amsfonts/cm/cmtt12.pfb><D:/Archivos del programa/MiKTex/fonts/type1/public/ams
+fonts/cm/cmtt9.pfb>
+Output written on presentacion.pdf (37 pages, 4238265 bytes).
+PDF statistics:
+ 805 PDF objects out of 1000 (max. 8388607)
+ 94 named destinations out of 1000 (max. 500000)
+ 392 words of extra memory for PDF output out of 10000 (max. 10000000)
+

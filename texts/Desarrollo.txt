@@ -1,0 +1,49 @@
+En este capitulo....
+
+
+///SCRUM METHODOLOGY////////////////////
+
+1-Explicar SCRUM que es (fotico)
+
+En este capítulo analizaremos el uso y desarrollo de la aplicación desde un punto de vista incremental, guiando de la mano al lector por cada una de las fases por las que ha pasado el proyecto como si él mismo lo hubiera desarrollado. El desarrollo realizado de manera incremental dando lugar a la aparición de diversos prototipos basados en las iteraciones por las que avanzará la creación. Este formato se corresponde a un modelo SCRUM:
+
+SCRUM is an iterative and incremental agile software development framework for managing product development. It defines "a flexible, holistic product development strategy where a development team works as a unit to reach a common goal", challenges assumptions of the "traditional, sequential approach" to product development, and enables teams to self-organize by encouraging physical co-location or close online collaboration of all team members, as well as daily face-to-face communication among all team members and disciplines in the project.
+
+A key principle of SCRUM is its recognition that during production processes, the customers can change their minds about what they want and need (often called requirements volatility), and that unpredicted challenges cannot be easily addressed in a traditional predictive or planned manner. As such, SCRUM adopts an empirical approach,accepting that the problem cannot be fully understood or defined, focusing instead on maximizing the team's ability to deliver quickly, to respond to emerging requirements and to adapt to evolving technologies and changes in market conditions.
+
+In SCRUM there are three main roles defined:
+
+{Product owner}: The person responsible for maintaining the product backlog by representing the interests of the stakeholders, and ensuring the value of the work the development team does.
+{SCRUM master}: The person responsible for the SCRUM process, making sure it is used correctly and maximizing its benefits.
+{Development team}: A cross-functional group of people responsible for delivering potentially shippable increments of product at the end of every sprint.
+
+In our case the product owner and the SCRUM master are represented by the project tutor, so the development team is the project author. Apart from that, we follow the SCRUM methodology faithfully.
+
+A sprint (or iteration) is the basic unit of development in SCRUM. The sprint is a time-boxed effort; that is, it is restricted to a specific duration. The duration is fixed in advance for each sprint and is normally between one week and one month, with two weeks being the most common.
+
+Each sprint starts with a sprint planning event that aims to define a sprint backlog, identify the work for the sprint, and make an estimated commitment for the sprint goal. Each sprint ends with a sprint review and sprint retrospective, that reviews progress to show to stakeholders and identify lessons and improvements for the next sprints.
+
+SCRUM emphasizes working product at the end of the sprint that is really done. In the case of software, this likely includes that the software has been integrated, fully tested and end-user documented.
+
+[FOTO DEL MODELO SCRUM]
+
+
+Sprints of interations:
+
+Interation 0: Investigation and premiliminary study
+
+Interation 1:
+
+Interation 2:
+
+Interation 3:
+
+Interation 4:
+
+Interation 5:
+
+Interation 6:
+
+
+
+////////////////////////////ITERATION 0: Investigation and premiliminary study/////////////////

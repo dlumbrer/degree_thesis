@@ -1,0 +1,554 @@
+
+% Este documento LaTeX fue diseñado por profesores  del Departamento de Matemáticas 
+% de la Universidad de Antioqua (http://ciencias.udea.edu.co/). Usted puede modificarlo
+% y personalizarlo a su gusto bajo los términos de la licencia de documentación libre GNU.
+% http://es.wikipedia.org/w/index.php?title=Licencia_de_documentaci%C3%B3n_libre_de_GNU&oldid=15717448
+
+\documentclass[serif,9pt]{beamer}
+\setbeamertemplate{navigation symbols}{}
+
+\usetheme{Warsaw}
+
+%\documentclass[serif,9pt]{beamer}
+%\usepackage[T1]{fontenc} % Needed for Type1 Concrete
+%\usepackage[charter]{mathdesign}
+
+%\usepackage[pdftex]{graphicx}
+
+\usepackage[latin1]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{listings}
+\usepackage{float} 
+
+
+\beamersetuncovermixins{\opaqueness<1>{25}}{\opaqueness<2->{15}}
+
+\begin{document}
+\title[Trabajo fin de grado]{Network visualization with Kibana}  
+\author{David Moreno Lumbreras}
+
+\institute[Universidad Rey Juan Carlos]{%
+  ESCUELA TÉCNICA SUPERIOR DE INGENIERÍA DE TELECOMUNICACIÓN\\
+  Universidad Rey Juan Carlos}
+\date{2016}
+
+\logo{\includegraphics[scale=0.1]{logo_vect}} 
+
+
+\begin{frame}
+\titlepage
+\end{frame}
+
+\begin{frame}\frametitle{Contenido}\tableofcontents
+\end{frame} 
+
+\section{Introducción} 
+
+\subsection{Descripción del problema}
+
+\begin{frame}\frametitle{Visualización de datos} 
+
+{\LARGE
+\begin{itemize}
+\item Gran cantidad de datos
+\item Importancia de la \textbf{visualización} de estos datos
+\item Visualización en forma de \textbf{red social}, poco explotada, interesante
+\item Herramientas para la visualización: Freeboard, ManyEyes, \textbf{Kibana}, etc.
+\end{itemize}
+}
+\end{frame}
+
+\begin{frame}
+
+{\LARGE 
+\begin{exampleblock}{}
+\textbf{Kibana} es una herramienta nueva, bajo licencia open source software, que permite realizar distintos tipos de visualizaciones de datos provenientes de la base de datos \textbf{ElasticSearch}. Kibana también permite crear dashboards con visualizaciones guardadas previamente.
+\end{exampleblock}
+}
+\end{frame}
+
+\begin{frame}\frametitle{Freeboard} 
+
+\begin{figure}
+  \centering
+  \includegraphics[width=8cm, keepaspectratio]{freeboard}
+  \caption{Ejemplo de freeboard}
+  \label{fig:car}
+\end{figure}
+
+\end{frame}
+
+\begin{frame}\frametitle{ManyEyes} 
+
+\begin{figure}
+  \centering
+  \includegraphics[width=8cm, keepaspectratio]{manyeyes}
+  \caption{Ejemplo de ManyEyes}
+  \label{fig:car}
+\end{figure}
+
+\end{frame}
+
+\begin{frame}\frametitle{Kibana} 
+
+\begin{figure}
+  \centering
+  \includegraphics[width=9cm, keepaspectratio]{examplekibana}
+  \caption{Ejemplo de Kibana}
+  \label{fig:car}
+\end{figure}
+\end{frame}
+
+
+\subsection{Objetivo principal}
+\begin{frame}
+\frametitle{Objetivo principal} 
+{\large 
+Integración de sistemas de visualización de redes sociales en sistemas complejos de visualización e interacción de datos.
+\begin{block}{Sub-objetivos}
+\begin{enumerate}
+\item Análisis y elección de la biblioteca de visualización de redes.
+\item Adaptación a Kibana y ElasticSearch.
+\item Integración de biblioteca de visualización en Kibana.
+\item Modificación de la opciones de Kibana para crear un plugin simple, dinámico y eficiente.
+\item Permitir una amplia personalización de la red social.
+\item Optimización de recursos cuando la cantidad de datos varíe.
+\item Completa integración de la visualización de red en dashboards.
+\end{enumerate}
+\end{block}
+}
+\end{frame}
+
+%\begin{block}{title of the bloc}
+%bloc text
+%\end{block}
+
+%\begin{alertblock}{title of the bloc}
+%bloc text
+%\end{alertblock}
+
+\section{Tecnologías utilizadas} 
+
+\begin{frame}\frametitle{Tecnologías utilizadas} 
+{\LARGE 
+\begin{itemize}
+\item {HTML5}
+\item {Javascript}
+\item {Kibana}
+\item {ElasticSearch}
+\item {VisJS}
+\item {AngularJS}
+\item {NodeJS y Npm}
+\item {ResizeSensor y Randomcolor}
+
+\end{itemize}
+}
+\end{frame}
+
+%\begin{figure}
+%\includegraphics[scahle=0.2]{convection} 
+%\caption{show an example picture}
+%\end{figure}
+
+\section{Desarrollo} \label{desarrollo}
+\subsection{Metodología}
+\begin{frame}\frametitle{Metodología Scrum} 
+\begin{figure}
+\includegraphics[scale=0.2]{SCRUM} 
+\caption{Metodología Scrum}
+\end{figure}
+
+\end{frame}
+\subsection{Iteraciones}
+
+\begin{frame}\frametitle{Iteraciones} 
+{\LARGE 
+\begin{itemize}
+\item \textbf{Iteración 0}: Investigación y estudios previos.
+\item \textbf{Iteracion 1}: Primeras demos (plugins).
+\item \textbf{Iteración 2}: Integración.
+\item \textbf{Iteración 3}: Visualización con datos de ElasticSearch.
+\item \textbf{Iteración 4}: Diferentes formas de visualización y Optimización.
+\item \textbf{Iteración 5}: Customización.
+\end{itemize}
+}
+\end{frame}
+
+\begin{frame}{Elección biblioteca visualización}
+  \begin{columns}[t]
+    \column{0.5\textwidth}
+\begin{figure}
+  \centering
+  \includegraphics[width=5cm, keepaspectratio]{sigma3}
+  \caption{SigmaJS}
+\end{figure}
+    \column{0.5\textwidth}
+\begin{figure}
+  \centering
+  \includegraphics[width=5cm, keepaspectratio]{visjs2}
+  \caption{VisJS}
+\end{figure}
+  \end{columns}
+\end{frame}
+
+\begin{frame}{Primeros plugins}
+  \begin{columns}[t]
+    \column{0.5\textwidth}
+\begin{figure}
+  \centering
+  \includegraphics[width=6cm, keepaspectratio]{html}
+  \caption{Visor HTML (sin datos)}
+\end{figure}
+    \column{0.5\textwidth}
+\begin{figure}
+  \centering
+  \includegraphics[width=6cm, keepaspectratio]{tagcloud}
+  \caption{Tag Cloud (con datos)}
+\end{figure}
+  \end{columns}
+\end{frame}
+
+\begin{frame}{VisJS importada en Kibana}
+  \begin{columns}[t]
+    \column{0.5\textwidth}
+\begin{figure}
+  \centering
+  \includegraphics[width=6cm, keepaspectratio]{integration}
+  \caption{VisJS integrado}
+\end{figure}
+    \column{0.5\textwidth}
+\begin{figure}
+  \centering
+  \includegraphics[width=6cm, keepaspectratio]{visualizationwithdata}
+  \caption{Primera red con datos}
+\end{figure}
+  \end{columns}
+\end{frame}
+
+\begin{frame}{Integración en dashboard}
+  \begin{columns}[t]
+    \column{0.5\textwidth}
+\begin{figure}
+  \centering
+  \includegraphics[width=6cm, keepaspectratio]{integrationdashboard1}
+  \caption{Tamaño pequeño}
+\end{figure}
+    \column{0.5\textwidth}
+\begin{figure}
+  \centering
+  \includegraphics[width=6cm, keepaspectratio]{integrationdashboard2}
+  \caption{Tamaño grande}
+\end{figure}
+  \end{columns}
+\end{frame}
+
+\begin{frame}{Personalización}
+  \begin{columns}[t]
+    \column{0.5\textwidth}
+\begin{figure}
+  \centering
+  \includegraphics[width=6cm, keepaspectratio]{noderelation}
+  \caption{Distintos tipos de red}
+\end{figure}
+    \column{0.5\textwidth}
+\begin{figure}
+  \centering
+  \includegraphics[width=6cm, keepaspectratio]{sizecolornetwork}
+  \caption{Tamaños, colores...}
+\end{figure}
+  \end{columns}
+\end{frame}
+
+\section{Diseño y resultados}
+
+\subsection{Estructura}
+\begin{frame}
+\begin{figure}
+  \centering
+  \includegraphics[width=9cm, keepaspectratio]{codediagram2}
+  \caption{Estructura de los archivos}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Estructura visual}
+  \begin{columns}[t]
+    \column{0.5\textwidth}
+\begin{figure}
+  \centering
+  \includegraphics[width=6cm, keepaspectratio]{lista}
+  \caption{Plugin dentro de la lista de visualizaciones}
+\end{figure}
+    \column{0.5\textwidth}
+\begin{figure}
+  \centering
+  \includegraphics[width=6cm, keepaspectratio]{pagevis}
+  \caption{Esquema dentro de la visualización}
+\end{figure}
+  \end{columns}
+\end{frame}
+
+\subsection{Funcionamiento - Guía de usuario}
+\begin{frame}{Selección de agregaciones}
+\begin{block}{Metrics (valores numéricos)}
+\begin{itemize}
+\item \textbf{Node Size}: Métrica que marca el tamaño de los nodos.
+\item \textbf{Edge Size}: Métrica que marca el tamaño de los enlaces.
+\end{itemize}
+\end{block}
+\begin{block}{Buckets (campos de la base de datos)}
+\begin{itemize}
+\item \textbf{Node}: Permite elegir un campo que definirá el primer, o segundo, tipo de nodos. Puede ser seleccionada una o dos veces.
+\item \textbf{Relation}: Permite elegir un campo que definirá la relación entre los nodos. Solo puede elegirse si se ha elegido la agregación 'Node' antes y solo una vez.
+\item \textbf{Node Color}: Permite elegir un campo que definirá el color del nodo, si varios nodos tienen la misma relación con este campo, serán coloreados del mismo color.
+\end{itemize}
+\end{block}
+\end{frame}
+
+\begin{frame}{Cambio de opciones}
+\begin{block}{}
+\begin{itemize}
+\item \textbf{Default colors}: Permite cambiar los colores por defecto de los nodos y del fondo de la visualización.
+\item \textbf{Size}: Tiene dos valores, uno máximo y otro mínimo para los nodos y enlaces, definen el tamaño máximo y mínimo que pueden tener.
+\item \textbf{Shapes}: Permite elegir la forma que tienen los nodos.
+\item \textbf{Extra}:
+\begin{itemize}
+\item \textbf{Show labels}: Si está activada, se muestran las etiquetas de los nodos.
+\item \textbf{Show Popup}: Si está activada, al pasar con el ratón por encima del nodo se mostrará información sobre él.
+\item \textbf{Show Color Legend}: Si se ha elegido la agregación 'Node Color' y además está activada esta opción, aparecerá en el canvas dibujada una leyenda con los respectivos colores utilizados.
+\end{itemize}
+\item \textbf{Top Values}: Los valores que se introducen definen el valor máximo que puede obtener cada métrica, si la métrica obtiene un valor superior, el valor se forzará al introducido en esta opción.
+\item \textbf{Don't show nodes below this value}: Si el valor de la métrica 'Node Size' es inferior al que se ha introducido en esta opción, el nodo con esa métrica no será mostrado.
+\end{itemize}
+\end{block}
+\end{frame}
+
+
+\subsection{Tipos de visualizaciones}
+
+\begin{frame}{Red de solo nodos sin relación}
+\begin{figure}
+  \centering
+  \includegraphics[width=11cm, keepaspectratio]{onlynodes}
+  \caption{Ejemplo}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Red de un solo tipo de nodos relacionados}
+\begin{figure}
+  \centering
+  \includegraphics[width=11cm, keepaspectratio]{nodesrelated}
+  \caption{Ejemplo}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Red de dos tipos de nodos relacionados}
+\begin{figure}
+  \centering
+  \includegraphics[width=11cm, keepaspectratio]{nodenode}
+  \caption{Ejemplo}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Red con nodos coloreados}
+\begin{figure}
+  \centering
+  \includegraphics[width=11cm, keepaspectratio]{nodecolor}
+  \caption{Ejemplo}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Red con tamaños de nodos y enlaces}
+\begin{figure}
+  \centering
+  \includegraphics[width=11cm, keepaspectratio]{sizes}
+  \caption{Ejemplo}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Red con opciones cambiadas}
+\begin{figure}
+  \centering
+  \includegraphics[width=11cm, keepaspectratio]{optionschanged}
+  \caption{Ejemplo}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Red integrada en dashboard}
+\begin{figure}
+  \centering
+  \includegraphics[width=11cm, keepaspectratio]{Dashboard}
+  \caption{Ejemplo}
+\end{figure}
+\end{frame}
+
+
+\subsection{Testeo y alojamiento del software}
+
+\begin{frame}{Datos utilizados}
+\LARGE
+Todas las pruebas y ejemplos han sido realizados con datos ofrecidos por el dueño del producto (el tutor, en este caso); \textbf{corresponden a 'logs' que contienen commits de repositorios}. Estos datos han sido importados con la herramienta 'Elasticdump'.
+
+\end{frame}
+
+\begin{frame}{Alojamiento}
+
+Para el desarrollo del proyecto se ha utilizado el sistema de control de versiones Git y está alojado en \textbf{GitHub}. Cuenta con una \textbf{página web} donde se encuentra más información y enlaces al repositorio.\\
+\begin{exampleblock}{}
+Dentro del repositorio, aparte del código, se encuentran lo siguientes archivos con información:
+\begin{itemize}
+\item \textbf{README.md}
+\item \textbf{USER\_GUIDE.md}
+\end{itemize}
+\end{exampleblock}
+
+\end{frame}
+
+\begin{frame}{Publicación y repercusión}
+
+El equipo de \textbf{Elastic} (creadores de Kibana y ElasticSearch) ha \textbf{publicado} este plugin dentro de la página de 'plugins conocidos' de Kibana.
+\begin{alertblock}{Tras la publicación}
+\begin{itemize}
+\item El plugin recibe de media 90 visitas y 10 clones al día. En total el plugin cuenta con más de \textbf{5000 visitas y 450 clones}.
+\item Se han abierto varios \textbf{GitHub Issues} para solucionar problemas que han ocurrido en la instalación o uso del plugin.
+\item Se han recibido cerca de \textbf{20 emails} de desarrolladores para dar su opinión, informar de un fallo o, simplemente, agradecer la aportación que hace este plugin a la comunidad de Kibana.
+\end{itemize}
+\end{alertblock}
+
+\end{frame}
+
+\begin{frame}{Ejemplos de desarolladores utilizando el plugin}
+
+\begin{columns}[t]
+    \column{0.5\textwidth}
+\begin{figure}
+  \centering
+  \includegraphics[width=6cm, keepaspectratio]{test1}
+\end{figure}
+    \column{0.5\textwidth}
+\begin{figure}
+  \centering
+  \includegraphics[width=6cm, keepaspectratio]{test2}
+\end{figure}
+  \end{columns}
+
+\end{frame}
+
+
+\section{Conclusiones}
+\subsection{Conocimientos aplicados}
+
+\begin{frame}\frametitle{Asignaturas relacionadas}
+{\LARGE
+\begin{itemize}
+\item \textbf{Desarrollo de aplicaciones telemáticas}
+\item \textbf{Ingeniería de sistemas de información}
+\item \textbf{Servicios y aplicaciones telemáticas}
+\item \textbf{Ingeniería de sistemas telemáticos}
+\end{itemize}
+}
+\end{frame}
+\subsection{Lecciones aprendidas}
+\begin{frame}\frametitle{Lecciones aprendidas}
+{\LARGE
+\begin{itemize}
+\item \textbf{Mejora de las habilidades con JavaScript, CSS, HTML y AngularJS}
+\item \textbf{Uso y adaptación a la herramienta open source Kibana}
+\item \textbf{Manejo de la base de datos NoSQL ElasticSearch}
+\item \textbf{Aprender a comunicarse con distintos desarolladores que han instalado el plugin para solucionarles errores o simplemente para ayudarme a mejorar el proyecto}
+\item \textbf{Uso de \LaTeX}
+\item \textbf{Mejora del nivel de inglés escrito}
+\end{itemize}
+}
+\end{frame}
+\subsection{Trabajos futuros}
+\begin{frame}\frametitle{Trabajos futuros}
+{\LARGE
+\begin{enumerate}
+\item \textbf{Soporte continuo}
+\item \textbf{Añadir más opciones de personalización de la red}
+\item \textbf{Añadir más niveles de representación de datos}
+\item \textbf{Añadir más interactividad con la red, por ejemplo filtros, etc.}
+\item \textbf{Añadir otra biblioteca de visualización para que el usuario pueda elegir con cual renderizar la red}
+\item \textbf{Optimización general de rendimiento}
+\item \textbf{Creación de otros plugins}
+\end{enumerate}
+}
+\end{frame}
+\section{Referencias} 
+
+\begin{frame}\frametitle<presentation>{Referencias y bibliografía}
+\begin{enumerate}
+\item \underline{\textbf{JavaScript}}:
+
+ Marijn Haverbeke, \textit{Eloquent JavaScript}. No Starch Press, 2014
+
+Tutorials: \url{http://www.w3schools.com/js/}
+
+\item \underline{\textbf{HTML5}}:
+
+Standard: \url{https://www.w3.org/TR/html5/}
+
+Tutorials: \url{http://www.w3schools.com/html/html5_intro.asp}
+
+\item \underline{\textbf{Web theoretical reference}}: 
+
+\url{https://en.wikipedia.org/wiki/Main_Page}
+
+\item \underline{\textbf{Kibana}}:
+
+ Yuvraj Gupta, \textit{Kibana Essentials}. Packt Publishing 2015
+
+Product: \url{https://www.elastic.co/products/kibana}
+
+User Guide: \url{https://www.elastic.co/guide/en/kibana/current/index.html}
+
+Repository: \url{https://github.com/elastic/kibana}
+
+Contribute section: \url{https://github.com/elastic/kibana/blob/master/CONTRIBUTING.md}
+
+\end{enumerate}
+
+\end{frame}
+
+\begin{frame}\frametitle<presentation>{Referencias y bibliografía}
+\begin{enumerate}
+\item \underline{\textbf{ElasticSearch}}: 
+
+ Radu Gheorghe, Matthew Lee Hinman, Roy Russo. \textit{Elasticsearch in Action}. Manning Publications, 2015
+
+Product: \url{https://www.elastic.co/products/elasticsearch}
+
+User Guide: \url{https://www.elastic.co/guide/en/elasticsearch/reference/current/index.html}
+
+Repository: \url{https://github.com/elastic/elasticsearch}
+
+\item \underline{\textbf{VisJS}}:
+
+Main Page: \url{http://visjs.org/}
+
+Repository: \url{https://github.com/almende/vis}
+
+\item \underline{\textbf{ResizeSensor - CSS Element Queries}}:
+
+\url{https://github.com/marcj/css-element-queries}
+
+\item \underline{\textbf{RandomColor}}:
+
+\url{https://github.com/davidmerfield/randomColor}
+
+\end{enumerate}
+
+\end{frame}
+
+\begin{frame}\frametitle{Páginas de interés}
+{\LARGE
+\begin{itemize}
+\item \textbf{Web del proyecto}: \url{https://dlumbrer.github.io/kbn_network/}
+\item \textbf{Repositorio GitHub}: \url{https://github.com/dlumbrer/kbn_network}
+\item \textbf{User Guide}: \url{https://github.com/dlumbrer/kbn_network/blob/master/USER_GUIDE.md}
+\item \textbf{Kibana Known-Plugins page}: \url{https://www.elastic.co/guide/en/kibana/current/known-plugins.html}
+\end{itemize}
+}
+\end{frame}
+
+\end{document}

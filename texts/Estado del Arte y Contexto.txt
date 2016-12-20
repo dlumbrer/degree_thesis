@@ -1,0 +1,192 @@
+Nombrar ManyEyes, Graph (ES), que me han servido como ideas, que mejoras le pongo yo
+
+
+/////////////////////////////////SOFTWARE LIBRE//////////////////////////////////////
+Cualquier programa considerado Open Source debe cumplir una serie de libertades, entre ellas la libertad de usar dicho programa sin necesidad de comunicarlo a los developers; libertad de estudiar dicho código fuente (source code) del programa y modificarlo sin la necesidad de publicar estas modificaciones; libertad de distribuir copias, ya sea el mismo código o una versión ejecutable, gratuitamente o pagando por su distribución; y finalmente, la libertad de mejorar el programa y publicar dichas mejoras para el beneficio de la comunidad.
+
+En definitiva Open source significa que puede ser utilizado y modificado porque está diseñado para ser accesible públicamente. Esto también fomenta la colaboración, y tiene gran impacto en la rapidez con la que se hacen las cosas, cuando cualquiera puede participar con sus ideas y añadir nuevos puntos de vista al trabajo ya hecho. Si todos tienen acceso a la misma información, hay un sentido de meritocracia en el que la mejor idea es la que se apoya. De esta manera se forman comunidades participativas en las que el trabajo de muchos se extiende por encima de las capacidades individuales de uno solo.
+
+Trabajando siguiendo la filosofía open source puede tener un gran impacto positivo en el mundo porque promueve cosas como el intercambio abierto de ideas, algo critico para el aprendizaje y para el mejoramiento de las tecnologías ya existentes. Permitir que la gente utilice la información que ya existe de manera libre para su formación es justo como crece una civilización, y es el núcleo de la educación.
+
+Esta filosofía open source también fomenta la colaboración, y tiene gran impacto en la rapidez con la que se hacen las cosas, cuando cualquiera puede participar con sus ideas y añadir nuevos puntos de vista al trabajo ya hecho. Si todos tienen acceso a la misma información, hay un sentido de meritocracia en el que la mejor idea es la que se apoya. De esta manera se forman comunidades participativas en las que el trabajo de muchos se extiende por encima de las capacidades individuales de uno solo.
+
+Abierto no significa gratuito. Las ideas y el trabajo siguen siendo de quien las tiene, pero abrirlas a la participación para que otros se beneficien de ellas o puedan incluso mejorarlas tiene mucho mayor impacto en el mundo, que cerrarlas a solo un pequeño grupo.
+
+Por ejemplo, Internet está construido sobre tecnologías open source, así que todo el que use esta red se está beneficiando de software de código abierto. Sistemas como Linux y Apache son fundamentales para acceder a la web que conocemos, y es gracias a que son open source que tantas personas pueden acceder a ellos, que mejoran constantemente y a un paso muy veloz.
+
+/////////////////////////////////KIBANA//////////////////////////////////////
+
+
+
+-------------------------IN THIS PROJECT:
+
+/////////////////////////////////ELASTICSEARCH//////////////////////////////////////
+
+Elasticsearch is a highly scalable open-source full-text search and analytics engine. It allows you to store, search, and analyze big volumes of data quickly and in near real time. It is generally used as the underlying engine/technology that powers applications that have complex search features and requirements.
+
+Here are a few sample use-cases that Elasticsearch could be used for:
+
+\begin{itemize}
+\item You run an online web store where you allow your customers to search for products that you sell. In this case, you can use Elasticsearch to store your entire product catalog and inventory and provide search and autocomplete suggestions for them.
+\item You want to collect log or transaction data and you want to analyze and mine this data to look for trends, statistics, summarizations, or anomalies. In this case, you can use Logstash (part of the Elasticsearch/Logstash/Kibana stack) to collect, aggregate, and parse your data, and then have Logstash feed this data into Elasticsearch. Once the data is in Elasticsearch, you can run searches and aggregations to mine any information that is of interest to you.
+\item You run a price alerting platform which allows price-savvy customers to specify a rule like "I am interested in buying a specific electronic gadget and I want to be notified if the price of gadget falls below X dollars from any vendor within the next month". In this case you can scrape vendor prices, push them into Elasticsearch and use its reverse-search (Percolator) capability to match price movements against customer queries and eventually push the alerts out to the customer once matches are found.
+\item You have analytics/business-intelligence needs and want to quickly investigate, analyze, visualize, and ask ad-hoc questions on a lot of data (think millions or billions of records). In this case, you can use Elasticsearch to store your data and then use Kibana (part of the Elasticsearch/Logstash/Kibana stack) to build custom dashboards that can visualize aspects of your data that are important to you. Additionally, you can use the Elasticsearch aggregations functionality to perform complex business intelligence queries against your data. This is use that will give in the proyect.
+\end{itemize}
+
+For the rest of this tutorial, I will guide you through the process of getting Elasticsearch up and running, taking a peek inside it, and performing basic operations like indexing, searching, and modifying your data. At the end of this tutorial, you should have a good idea of what Elasticsearch is, how it works, and hopefully be inspired to see how you can use it to either build sophisticated search applications or to mine intelligence from your data. 
+
+\subsection{Basic Concepts}
+There are a few concepts that are core to Elasticsearch.
+
+\subsubsection{Near Realtime}
+Elasticsearch is a near real time search platform. What this means is there is a slight latency (normally one second) from the time you index a document until the time it becomes searchable.
+
+\subsubsection{Cluster}
+A cluster is a collection of one or more nodes (servers) that together holds your entire data and provides federated indexing and search capabilities across all nodes. A cluster is identified by a unique name which by default is "elasticsearch". This name is important because a node can only be part of a cluster if the node is set up to join the cluster by its name.
+
+Make sure that you don’t reuse the same cluster names in different environments, otherwise you might end up with nodes joining the wrong cluster. For instance you could use logging-dev, logging-stage, and logging-prod for the development, staging, and production clusters.
+
+Note that it is valid and perfectly fine to have a cluster with only a single node in it. Furthermore, you may also have multiple independent clusters each with its own unique cluster name.
+
+\subsubsection{Node}
+A node is a single server that is part of your cluster, stores your data, and participates in the cluster’s indexing and search capabilities. Just like a cluster, a node is identified by a name which by default is a random Universally Unique IDentifier (UUID) that is assigned to the node at startup. You can define any node name you want if you do not want the default. This name is important for administration purposes where you want to identify which servers in your network correspond to which nodes in your Elasticsearch cluster.
+
+A node can be configured to join a specific cluster by the cluster name. By default, each node is set up to join a cluster named elasticsearch which means that if you start up a number of nodes on your network and—assuming they can discover each other—they will all automatically form and join a single cluster named elasticsearch.
+
+In a single cluster, you can have as many nodes as you want. Furthermore, if there are no other Elasticsearch nodes currently running on your network, starting a single node will by default form a new single-node cluster named elasticsearch.
+
+\subsubsection{Index}
+An index is a collection of documents that have somewhat similar characteristics. For example, you can have an index for customer data, another index for a product catalog, and yet another index for order data. An index is identified by a name (that must be all lowercase) and this name is used to refer to the index when performing indexing, search, update, and delete operations against the documents in it.
+
+In a single cluster, you can define as many indexes as you want.
+
+\subsubsection{Type}
+Within an index, you can define one or more types. A type is a logical category/partition of your index whose semantics is completely up to you. In general, a type is defined for documents that have a set of common fields. For example, let’s assume you run a blogging platform and store all your data in a single index. In this index, you may define a type for user data, another type for blog data, and yet another type for comments data.
+
+\subsubsection{Document}
+A document is a basic unit of information that can be indexed. For example, you can have a document for a single customer, another document for a single product, and yet another for a single order. This document is expressed in JSON (JavaScript Object Notation) which is an ubiquitous internet data interchange format.
+
+Within an index/type, you can store as many documents as you want. Note that although a document physically resides in an index, a document actually must be indexed/assigned to a type inside an index.
+
+\subsubsection{Shards & Replicas}
+An index can potentially store a large amount of data that can exceed the hardware limits of a single node. For example, a single index of a billion documents taking up 1TB of disk space may not fit on the disk of a single node or may be too slow to serve search requests from a single node alone.
+
+To solve this problem, Elasticsearch provides the ability to subdivide your index into multiple pieces called shards. When you create an index, you can simply define the number of shards that you want. Each shard is in itself a fully-functional and independent "index" that can be hosted on any node in the cluster.
+
+The mechanics of how a shard is distributed and also how its documents are aggregated back into search requests are completely managed by Elasticsearch and is transparent to you as the user.	
+
+In a network/cloud environment where failures can be expected anytime, it is very useful and highly recommended to have a failover mechanism in case a shard/node somehow goes offline or disappears for whatever reason. To this end, Elasticsearch allows you to make one or more copies of your index’s shards into what are called replica shards, or replicas for short.
+
+To summarize, each index can be split into multiple shards. An index can also be replicated zero (meaning no replicas) or more times. Once replicated, each index will have primary shards (the original shards that were replicated from) and replica shards (the copies of the primary shards). The number of shards and replicas can be defined per index at the time the index is created. After the index is created, you may change the number of replicas dynamically anytime but you cannot change the number shards after-the-fact.
+
+By default, each index in Elasticsearch is allocated 5 primary shards and 1 replica which means that if you have at least two nodes in your cluster, your index will have 5 primary shards and another 5 replica shards (1 complete replica) for a total of 10 shards per index.
+
+
+/////////////////////////////////VISJS//////////////////////////////////////
+VisJS is a dynamic, browser based visualization library. The library is designed to be easy to use, to handle large amounts of dynamic data, and to enable manipulation of and interaction with the data. The library consists of the components DataSet, Timeline, Network, Graph2d and Graph3d.
+
+Specifically we use Network component. Network is a visualization to display networks and networks consisting of nodes and edges. The visualization is easy to use and supports custom shapes, styles, colors, sizes, images, and more. The network visualization works smooth on any modern browser for up to a few thousand nodes and edges. To handle a larger amount of nodes, Network has clustering support. Network uses HTML canvas for rendering.
+
+-------------------------IN THIS PROJECT:
+
+
+
+
+/////////////////////////////////ANGULARJS//////////////////////////////////////
+AngularJS is a structural framework for dynamic web apps. It lets you use HTML as your template language and lets you extend HTML's syntax to express your application's components clearly and succinctly. Angular's data binding and dependency injection eliminate much of the code you would otherwise have to write. And it all happens within the browser, making it an ideal partner with any server technology.
+
+Angular teaches the browser new syntax through a construct we call directives. Examples include:
+
+\begin{itemize}
+\item Data binding, as in {{}}.
+\item DOM control structures for repeating, showing and hiding DOM fragments.
+\item Support for forms and form validation.
+\item Attaching new behavior to DOM elements, such as DOM event handling.
+\item Grouping of HTML into reusable components.
+\end{itemize}
+
+Angular is not a single piece in the overall puzzle of building the client-side of a web application. It handles all of the DOM and AJAX glue code you once wrote by hand and puts it in a well-defined structure. This makes Angular opinionated about how a CRUD (Create, Read, Update, Delete) application should be built. But while it is opinionated, it also tries to make sure that its opinion is just a starting point you can easily change.
+
+Angular simplifies application development by presenting a higher level of abstraction to the developer. Like any abstraction, it comes at a cost of flexibility. In other words, not every app is a good fit for Angular. Angular was built with the CRUD application in mind. Luckily CRUD applications represent the majority of web applications. To understand what Angular is good at, though, it helps to understand when an app is not a good fit for Angular.
+
+Games and GUI editors are examples of applications with intensive and tricky DOM manipulation. These kinds of apps are different from CRUD apps, and as a result are probably not a good fit for Angular. In these cases it may be better to use a library with a lower level of abstraction, such as jQuery.
+
+-------------------------IN THIS PROJECT:
+
+
+/////////////////////////////////JS//////////////////////////////////////
+
+
+/////////////////////////////////NODEJS//////////////////////////////////////
+
+Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient.As an asynchronous event driven JavaScript runtime, Node is designed to build scalable network applications.
+
+Node.js applications are written in JavaScript, and can be run within the Node.js runtime on OS X, Microsoft Windows, and Linux. Node.js also provides a rich library of various JavaScript modules which simplifies the development of web applications using Node.js to a great extent.
+
+\begin{lstlisting}[frame=single]
+Node.js = Runtime Environment + JavaScript Library
+\end{lstlisting}
+
+Following are the areas where Node.js is proving itself as a perfect technology partner.
+\begin{itemize}
+\item I/O bound Applications
+\item Data Streaming Applications
+\item Data Intensive Real-time Applications (DIRT)
+\item JSON APIs based Applications
+\item Single Page Applications
+\end{itemize}
+
+
+Npm (node package manager) is the package manager for JavaScript. Find, share, and reuse packages of code from hundreds of thousands of developers — and assemble them in powerful new ways. 
+
+The best way to manage locally installed npm packages is to create a package.json file.A package.json file affords you a lot of great things:
+\begin{enumerate}
+\item It serves as documentation for what packages your project depends on.
+\item It allows you to specify the versions of a package that your project can use using semantic versioning rules.
+\item Makes your build reproducable which means that its way easier to share with other developers.
+\end{enumerate}
+
+As a bare minimum, a package.json must have:
+\begin{itemize}
+\item "name"
+\begin{itemize}
+\item all lowercase
+\item one word, no spaces
+\item dashes and underscores allowed
+\end{itemize}
+\item "version"
+\begin{itemize}
+\item in the form of x.x.x
+\item follows (semver spec)[https://docs.npmjs.com/getting-started/semantic-versioning]
+\end{itemize}
+\end{itemize}
+
+For example:
+\begin{lstlisting}[frame=single]
+{
+  "name": "my-awesome-package",
+  "version": "1.0.0"
+}
+\end{lstlisting}
+
+
+
+/////////////////////////////////RANDOMCOLOR/////////////////////////////////////////////
+RandomColor is a npm package used for generating attractive random colors. The definition is literally "a tiny script for generating attractive random colors". 
+
+Esta API (or npm package) se utiliza para asignar color a los nodos de la red social de tal manera que los colores que asignados sean colores atractivos para la vista, no se parezcan entre ellos (en tonalidad) y no se repitan entre sí. For more details on how RandomColor works, see the API reference \footnote{\url{https://github.com/davidmerfield/randomColor}}.
+
+
+////////////////////////////////////// RESIZESENSOR//////////////////////////////////////
+
+ResizeSensor is a component of CSS Element-Queries. CSS Element-Queries is an event-based CSS element dimension query library with valid CSS selector syntax to change styles and allow responsive images based on element's dimensions and not window's viewport.
+
+ResizeSensor se utiliza en este proyecto para que el plugin sea responsivo al cambio de size cuando está integrado en un dashboard. Cuando se cambia el size del contenedor del plugin intergrado en un dashboard, ya sea ampliar/reducir su altura/anchura, el contenido (en este caso, el canvas donde está pintada la red social) debe adaptarse a la nueva height/width. La biblioteca de visualizacion de la red social Visjs no tiene implemetado el cambio responsivo de la altura cuando está varía dinamicamente, por este motivo se ha elegido utilizar el paquete ResizeSensor, que permite (mediante eventos CSS) cambiar el size (tanto altura como anchura) dinamicamente.
+
+\begin{lstlisting}[frame=single]
+new ResizeSensor(container, function() {
+   network.setSize('100%', container.getBoundingClientRect().height.toString());
+});
+\end{lstlisting}
+
+For more details on how CSS Element-Queries works, see the web and the API reference \footnote{\url{https://marcj.github.io/css-element-queries}}.
